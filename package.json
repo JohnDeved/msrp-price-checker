@@ -1,0 +1,23 @@
+{
+  "name": "msrp-price-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "engine-strict": true,
+  "scripts": {
+    "start": "ts-node --project ./tsconfig.json ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "dayjs": "^1.11.2",
+    "ts-node": "^10.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
