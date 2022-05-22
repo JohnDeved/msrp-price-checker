@@ -3,9 +3,9 @@ the script will run with github actions on schedule every 24h to add the prices 
 
 data from: {{date}}
 
-{{#each grakas}} 
-### {{this.name}}
-**ceapest prices:**
+{{#each grakas}}
+### {{this.name}} (msrp: {{this.msrp}}€)
+**seller prices:**
 {{#each this.price}} 
   - `{{this.name}}` {{this.price}}€
 {{/each}}

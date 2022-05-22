@@ -100,23 +100,10 @@ Promise.allSettled([
   const readmeTemplateFile = path.join(__dirname, 'templates', 'README.hbs')
   const readmeTemplate = Handlebars.compile(fs.readFileSync(readmeTemplateFile, "utf8"))
 
-  /* 
-    map to the following format:
-    [
-      { 
-        name: "RTX 3060 Ti", // this is the graka name
-        price: [ 
-          { name: "mifcom", price: "1299.99" }, } 
-          { name: "memorypc", price: "1299.99" }
-        ] 
-      },
-      ...
-    ]
-  */
-
   const grakas = dedupeGrakas([...mifcom, ...memorypc])
     .map(g => ({
       name: g.name,
+      msrp: msrp[g.name],
       price: [
         { name: "Mifcom", price: mifcom.find(m => m.name === g.name)?.price },
         { name: "MemoryPC", price: memorypc.find(m => m.name === g.name)?.price }
