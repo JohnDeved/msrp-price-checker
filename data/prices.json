@@ -3,113 +3,77 @@
     "mifcom": [
       {
         "name": "RTX 3050",
-        "price": 389,
-        "msrpDiff": 110,
-        "msrpPerc": 39.43
+        "price": 389
       },
       {
         "name": "RTX 3060",
-        "price": 549,
-        "msrpDiff": 220,
-        "msrpPerc": 66.87
+        "price": 549
       },
       {
         "name": "RTX 3060 Ti",
-        "price": 639,
-        "msrpDiff": 200,
-        "msrpPerc": 45.56
+        "price": 639
       },
       {
         "name": "RTX 3070",
-        "price": 849,
-        "msrpDiff": 300,
-        "msrpPerc": 54.64
+        "price": 849
       },
       {
         "name": "RTX 3070 Ti",
-        "price": 899,
-        "msrpDiff": 250,
-        "msrpPerc": 38.52
+        "price": 899
       },
       {
         "name": "RTX 3080",
-        "price": 1149,
-        "msrpDiff": 390,
-        "msrpPerc": 51.38
+        "price": 1149
       },
       {
         "name": "RTX 3080 Ti",
-        "price": 1599,
-        "msrpDiff": 330,
-        "msrpPerc": 26
+        "price": 1599
       },
       {
         "name": "RTX 3090",
-        "price": 1999,
-        "msrpDiff": 350,
-        "msrpPerc": 21.22
+        "price": 1999
       },
       {
         "name": "RTX 3090 Ti",
-        "price": 2499,
-        "msrpDiff": 250,
-        "msrpPerc": 11.12
+        "price": 2499
       }
     ],
     "memorypc": [
       {
         "name": "RTX 3050",
-        "price": 406.9,
-        "msrpDiff": 127.9,
-        "msrpPerc": 45.84
+        "price": 406.9
       },
       {
         "name": "RTX 3060",
-        "price": 499.9,
-        "msrpDiff": 170.9,
-        "msrpPerc": 51.95
+        "price": 499.9
       },
       {
         "name": "RTX 3060 Ti",
-        "price": 681.9,
-        "msrpDiff": 242.9,
-        "msrpPerc": 55.33
+        "price": 681.9
       },
       {
         "name": "RTX 3070",
-        "price": 813.9,
-        "msrpDiff": 264.9,
-        "msrpPerc": 48.25
+        "price": 813.9
       },
       {
         "name": "RTX 3070 Ti",
-        "price": 884.9,
-        "msrpDiff": 235.9,
-        "msrpPerc": 36.35
+        "price": 884.9
       },
       {
         "name": "RTX 3080",
-        "price": 1070.9,
-        "msrpDiff": 311.9,
-        "msrpPerc": 41.09
+        "price": 1070.9
       },
       {
         "name": "RTX 3080 Ti",
-        "price": 1413.9,
-        "msrpDiff": 144.9,
-        "msrpPerc": 11.42
+        "price": 1413.9
       },
       {
         "name": "RTX 3090",
-        "price": 2051.9,
-        "msrpDiff": 402.9,
-        "msrpPerc": 24.43
+        "price": 2051.9
       },
       {
         "name": "RTX 3090 Ti",
-        "price": 2569.9,
-        "msrpDiff": 320.9,
-        "msrpPerc": 14.27
+        "price": 2569.9
       }
     ]
   }

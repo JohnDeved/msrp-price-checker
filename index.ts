@@ -28,15 +28,13 @@ function sortGrakas(grakas: IGraka[]) {
   return grakas.sort((a, b) => a.price - b.price)
 }
 
-function calcMsrpGrakas(grakas: IGraka[]) {
+function filterMsrp(grakas: IGraka[]) {
   return grakas
     .filter(g => {
       // remove cards without msrp
       if (!msrp[g.name]) msrp[g.name] = null
       return msrp[g.name]
     })
-    .map(g => ({ ...g, msrpDiff: Number((g.price - msrp[g.name]).toFixed(2)) }))
-    .map(g => ({ ...g, msrpPerc: Number((g.msrpDiff / msrp[g.name] * 100).toFixed(2)) }))
 }
 
 
@@ -56,8 +54,8 @@ function scrapeMifcom() {
         .filter(g => g.name) // filter out undefined
     })
     .then(dedupeGrakas)
+    .then(filterMsrp)
     .then(sortGrakas)
-    .then(calcMsrpGrakas)
 }
 
 function scrapeMemoryPC() {
@@ -73,8 +71,8 @@ function scrapeMemoryPC() {
         .filter(g => g.name) // filter out undefined
     })
     .then(dedupeGrakas)
+    .then(filterMsrp)
     .then(sortGrakas)
-    .then(calcMsrpGrakas)
 }
 
 Promise.allSettled([
@@ -103,10 +101,22 @@ Promise.allSettled([
   const grakas = dedupeGrakas([...mifcom, ...memorypc])
     .map(g => ({
       name: g.name,
-      msrp: msrp[g.name],
+      msrp: msrp[g.name] + '€',
       price: [
-        { name: "Mifcom", price: mifcom.find(m => m.name === g.name)?.price },
-        { name: "MemoryPC", price: memorypc.find(m => m.name === g.name)?.price }
+        { 
+          name: "Mifcom", 
+          link: "https://www.mifcom.de",
+          price: mifcom.find(m => m.name === g.name)?.price + '€',
+          msrpDiff: (mifcom.find(m => m.name === g.name)?.price - msrp[g.name]).toFixed(2) + '€',
+          msrpDiffPercent: ((mifcom.find(m => m.name === g.name)?.price - msrp[g.name]) / msrp[g.name] * 100).toFixed(2) + '%'
+        },
+        { 
+          name: "MemoryPC", 
+          link: "https://www.memorypc.de",
+          price: memorypc.find(m => m.name === g.name)?.price + '€',
+          msrpDiff: (memorypc.find(m => m.name === g.name)?.price - msrp[g.name]).toFixed(2) + '€',
+          msrpDiffPercent: ((memorypc.find(m => m.name === g.name)?.price - msrp[g.name]) / msrp[g.name] * 100).toFixed(2) + '%',
+        }
       ]
     }))
 
