@@ -1,15 +1,16 @@
 this will generate a chart image that shows price development over time, which will be displayed in this readme here
 the script will run with github actions on schedule every 24h to add the prices of every day to the chart
 
-<ins>data last refreshed: {{date}}</ins>
+<ins>data last refreshed: {{date}}</ins><br><br>
 
 {{#each grakas}}
-### {{this.name}}
-<ins>**msrp**</ins>: {{this.msrp}} <br>
-<ins>**prices:**</ins>
-{{#each this.price}}
-  - [{{this.name}}]({{this.link}}) <ins>{{this.price}}</ins><br>
-    <ins>{{this.msrp.type}}</ins> msrp by {{this.msrp.diff}} ({{this.msrp.perc}}) 
-{{/each}}
----
+  ### {{this.name}}
+  <sub>msrp {{this.msrp}}</sub><br><br>
+  {{#each this.price}}
+    [{{this.name}}]({{this.link}}) <ins>{{this.price}}</ins><br>
+      <ins>{{this.msrp.type}}</ins> msrp by {{this.msrp.diff}} ({{this.msrp.perc}})<br><br>
+  {{/each}}
+
+  ---
+  <br><br>
 {{/each}}
