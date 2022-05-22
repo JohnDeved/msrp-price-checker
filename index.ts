@@ -1,4 +1,4 @@
-import msrp from './msrp.json'
+import msrp from './data/msrp.json'
 import dayjs from 'dayjs'
 import fs from 'fs'
 import * as cheerio from 'cheerio'
@@ -28,7 +28,11 @@ function sortGrakas(grakas: IGraka[]) {
 
 function calcMsrpGrakas(grakas: IGraka[]) {
   return grakas
-    .filter(g => msrp[g.name]) // remove cards without msrp
+    .filter(g => {
+      // remove cards without msrp
+      if (!msrp[g.name]) msrp[g.name] = null
+      return msrp[g.name]
+    }) 
     .map(g => ({ ...g, msrpDiff: Number((g.price - msrp[g.name]).toFixed(2)) }))
     .map(g => ({ ...g, msrpPerc: Number((g.msrpDiff / msrp[g.name] * 100).toFixed(2)) }))
 }
@@ -76,13 +80,17 @@ Promise.allSettled([
   scrapeMemoryPC()
 ]).then((results) => {
   const [mifcom, memorypc] = results.map(result => result.status === "fulfilled" ? result.value : null)
-  
+
   const newData = { mifcom, memorypc }
   console.log(newData)
 
   const date = dayjs().format("DD.MM.YYYY")
-  const file = `./data/grakas.json`
+  const file = `./data/prices.json`
   const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {}
   data[date] = newData
-  fs.writeFileSync(file, JSON.stringify(data))
+  fs.writeFileSync(file, JSON.stringify(data, null, 2))
+
+  // update msrp file
+  const msrpFile = `./data/msrp.json`
+  fs.writeFileSync(msrpFile, JSON.stringify(msrp, Object.keys(msrp).sort(), 2))
 })
