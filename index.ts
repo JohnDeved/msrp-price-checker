@@ -32,8 +32,9 @@ function filterMsrp(grakas: IGraka[]) {
   return grakas
     .filter(g => {
       // remove cards without msrp
-      if (!msrp[g.name]) msrp[g.name] = null
-      return msrp[g.name]
+      const key = g.name as keyof typeof msrp
+      if (!msrp[key]) msrp[key] = null as never
+      return msrp[key]
     })
 }
 
@@ -43,15 +44,15 @@ function scrapeMifcom() {
     .then(response => response.text())
     .then(html => {
       const match = html.match(/Bundle\((.+)\);\n/)
-      const bundle: Record<string, Object> = JSON.parse(match[1])
+      const bundle: Record<string, Object> = JSON.parse(match?.[1] ?? '{}')
       return Object.values(bundle.options).find(o => o.title === "Grafikkarte").selections as Object
     })
     .then(grakas => {
       // filter and map for RTX cards
       return Object.values(grakas)
         .map(g => ({ name: g.name as string, price: g.price as number }))
-        .map(g => ({ ...g, name: g.name.match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) }))
-        .filter(g => g.name) // filter out undefined
+        .map(g => ({ ...g, name: g.name.match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '' }))
+        .filter(g => g.name) // filter out empty names
     })
     .then(dedupeGrakas)
     .then(filterMsrp)
@@ -65,7 +66,7 @@ function scrapeMemoryPC() {
       const $ = cheerio.load(html)
       return $('h2:contains("Grafikkarte")').parent().parent().find(".product--properties-label").toArray()
         .map((el) => ({
-          name: $(el).find('.component-headline').text().trim().match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0),
+          name: $(el).find('.component-headline').text().trim().match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '',
           price: parseFloat($(el).find('.components-price').text().trim().replace(/[^0-9,]/g, '').replace(',', '.'))
         }))
         .filter(g => g.name) // filter out undefined
@@ -100,32 +101,33 @@ Promise.allSettled([
 
   const getFormatedPrices = (name: string, data: IGraka[]) => {
     const price = data.find(g => g.name === name)?.price
-    const msrpDiff = price - msrp[name]
+    const msrpPrice = msrp[name as keyof typeof msrp] ?? 0
+    const msrpDiff = price && msrpPrice ? price - msrpPrice : 0
     
     return {
       price: price ? `${price.toFixed(2)}€` : "?",
       msrp: {
         diff: msrpDiff ? `${msrpDiff.toFixed(2)}€` : "?",
-        perc: msrpDiff ? `${(msrpDiff / msrp[name] * 100).toFixed(2)}%` : "?",
+        perc: msrpDiff ? `${(msrpDiff / msrpPrice * 100).toFixed(2)}%` : "?",
         type: msrpDiff > 0 ? "over" : "under"
       }
     }
   }
 
-  const grakas = dedupeGrakas([...mifcom, ...memorypc])
+  const grakas = dedupeGrakas([...mifcom ?? [], ...memorypc ?? []])
     .map(g => ({
       name: g.name,
-      msrp: msrp[g.name] + '€',
+      msrp: msrp[g.name as keyof typeof msrp] + '€',
       price: [
         { 
           name: "Mifcom", 
           link: "https://www.mifcom.de",
-          ...getFormatedPrices(g.name, mifcom)
+          ...getFormatedPrices(g.name, mifcom ?? [])
         },
         { 
           name: "MemoryPC", 
           link: "https://www.memorypc.de",
-          ...getFormatedPrices(g.name, memorypc)
+          ...getFormatedPrices(g.name, memorypc ?? [])
         }
       ]
     }))
