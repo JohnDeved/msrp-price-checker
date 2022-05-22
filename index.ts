@@ -2,6 +2,7 @@ import msrp from './data/msrp.json'
 import dayjs from 'dayjs'
 import fs from 'fs'
 import * as cheerio from 'cheerio'
+import path from 'path'
 
 interface IGraka {
   name: string
@@ -85,12 +86,12 @@ Promise.allSettled([
   console.log(newData)
 
   const date = dayjs().format("DD.MM.YYYY")
-  const file = `./data/prices.json`
+  const file = path.join(__dirname, 'data', 'prices.json')
   const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {}
   data[date] = newData
   fs.writeFileSync(file, JSON.stringify(data, null, 2))
 
-  // update msrp file
-  const msrpFile = `./data/msrp.json`
+  // update msrp file, this will add new cards to the file
+  const msrpFile = path.join(__dirname, 'data', 'msrp.json')
   fs.writeFileSync(msrpFile, JSON.stringify(msrp, Object.keys(msrp).sort(), 2))
 })
