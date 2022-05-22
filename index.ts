@@ -119,6 +119,7 @@ Promise.allSettled([
   const grakas = dedupeGrakas([...mifcom ?? [], ...memorypc ?? []])
     .map(g => ({
       name: g.name,
+      nameEnc: encodeURIComponent(g.name),
       msrp: msrp[g.name as keyof typeof msrp] + '€',
       price: [
         {

@@ -10,6 +10,6 @@ the script will run with github actions on schedule every 24h to add the prices 
     [{{this.name}}]({{this.link}}) <ins>{{this.price}}</ins><br>
       <sub><ins>{{this.msrp.type}}</ins> msrp by {{this.msrp.diff}} ({{this.msrp.perc}})</sub><br><br>
   {{/each}}
-  ![{{this.name}} chart](img/{{this.name}}.svg)
+  ![{{this.name}} chart](img/{{this.nameEnc}}.svg)
   <br><br>
 {{/each}}
