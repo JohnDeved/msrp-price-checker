@@ -20,7 +20,5 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        author_name: undefined
-        author_email: johann@objekt.stream
-        message: 'update data'
-        add: '*'
+        message: update data
+        committer_email: johann@objekt.stream
