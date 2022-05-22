@@ -1,0 +1,2 @@
+this will generate a chart image that shows price development over time, which will be displayed in this readme here
+the script will run with github actions on schedule every 24h to add the prices of every day to the chart
