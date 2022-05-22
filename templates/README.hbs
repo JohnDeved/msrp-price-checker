@@ -8,8 +8,8 @@ the script will run with github actions on schedule every 24h to add the prices 
 <ins>**msrp**</ins>: {{this.msrp}} <br>
 <ins>**prices:**</ins>
 {{#each this.price}}
-  - [{{this.name}}]({{this.link}}) {{this.price}}<br>
-    {{this.msrpDiff}} over msrp ({{this.msrpDiffPercent}})
+  - [{{this.name}}]({{this.link}}) <ins>{{this.price}}</ins><br>
+    <ins>{{this.msrp.type}}</ins> msrp by {{this.msrp.diff}} ({{this.msrp.perc}}) 
 {{/each}}
 ---
 {{/each}}

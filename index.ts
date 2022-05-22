@@ -98,6 +98,20 @@ Promise.allSettled([
   const readmeTemplateFile = path.join(__dirname, 'templates', 'README.hbs')
   const readmeTemplate = Handlebars.compile(fs.readFileSync(readmeTemplateFile, "utf8"))
 
+  const getFormatedPrices = (name: string, data: IGraka[]) => {
+    const price = data.find(g => g.name === name)?.price
+    const msrpDiff = price - msrp[name]
+    
+    return {
+      price: price ? `${price.toFixed(2)}€` : "?",
+      msrp: {
+        diff: msrpDiff ? `${msrpDiff.toFixed(2)}€` : "?",
+        perc: msrpDiff ? `${(msrpDiff / msrp[name] * 100).toFixed(2)}%` : "?",
+        type: msrpDiff > 0 ? "over" : "under"
+      }
+    }
+  }
+
   const grakas = dedupeGrakas([...mifcom, ...memorypc])
     .map(g => ({
       name: g.name,
@@ -106,19 +120,17 @@ Promise.allSettled([
         { 
           name: "Mifcom", 
           link: "https://www.mifcom.de",
-          price: mifcom.find(m => m.name === g.name)?.price + '€',
-          msrpDiff: (mifcom.find(m => m.name === g.name)?.price - msrp[g.name]).toFixed(2) + '€',
-          msrpDiffPercent: ((mifcom.find(m => m.name === g.name)?.price - msrp[g.name]) / msrp[g.name] * 100).toFixed(2) + '%'
+          ...getFormatedPrices(g.name, mifcom)
         },
         { 
           name: "MemoryPC", 
           link: "https://www.memorypc.de",
-          price: memorypc.find(m => m.name === g.name)?.price + '€',
-          msrpDiff: (memorypc.find(m => m.name === g.name)?.price - msrp[g.name]).toFixed(2) + '€',
-          msrpDiffPercent: ((memorypc.find(m => m.name === g.name)?.price - msrp[g.name]) / msrp[g.name] * 100).toFixed(2) + '%',
+          ...getFormatedPrices(g.name, memorypc)
         }
       ]
     }))
+
+  console.log(JSON.stringify(grakas, null, 2))
 
   const readme = readmeTemplate({ grakas, date })
   const readmeFile = path.join(__dirname, 'README.md')
