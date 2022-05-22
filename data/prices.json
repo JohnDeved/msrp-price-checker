@@ -76,5 +76,83 @@
         "price": 2569.9
       }
     ]
+  },
+  "23.05.2022": {
+    "mifcom": [
+      {
+        "name": "RTX 3050",
+        "price": 389
+      },
+      {
+        "name": "RTX 3060",
+        "price": 549
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 639
+      },
+      {
+        "name": "RTX 3070",
+        "price": 849
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 899
+      },
+      {
+        "name": "RTX 3080",
+        "price": 1149
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1599
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1999
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2499
+      }
+    ],
+    "memorypc": [
+      {
+        "name": "RTX 3050",
+        "price": 406.9
+      },
+      {
+        "name": "RTX 3060",
+        "price": 499.9
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 681.9
+      },
+      {
+        "name": "RTX 3070",
+        "price": 813.9
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 884.9
+      },
+      {
+        "name": "RTX 3080",
+        "price": 1070.9
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1413.9
+      },
+      {
+        "name": "RTX 3090",
+        "price": 2051.9
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2569.9
+      }
+    ]
   }
 }

@@ -4,6 +4,8 @@ import fs from 'fs'
 import * as cheerio from 'cheerio'
 import path from 'path'
 import Handlebars from 'handlebars'
+import { ChartJSNodeCanvas } from 'chartjs-node-canvas'
+const chartJSNodeCanvas = new ChartJSNodeCanvas({ type: 'svg', width: 800, height: 600 })
 
 interface IGraka {
   name: string
@@ -87,9 +89,9 @@ Promise.allSettled([
 
   const date = dayjs().format("DD.MM.YYYY")
   const file = path.join(__dirname, 'data', 'prices.json')
-  const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {}
-  data[date] = newData
-  fs.writeFileSync(file, JSON.stringify(data, null, 2))
+  const prices: Record<string, typeof newData> = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {}
+  prices[date] = newData
+  fs.writeFileSync(file, JSON.stringify(prices, null, 2))
 
   // update msrp file, this will add new cards to the file
   const msrpFile = path.join(__dirname, 'data', 'msrp.json')
@@ -103,7 +105,7 @@ Promise.allSettled([
     const price = data.find(g => g.name === name)?.price
     const msrpPrice = msrp[name as keyof typeof msrp] ?? 0
     const msrpDiff = price && msrpPrice ? price - msrpPrice : 0
-    
+
     return {
       price: price ? `${price.toFixed(2)}€` : "?",
       msrp: {
@@ -119,13 +121,13 @@ Promise.allSettled([
       name: g.name,
       msrp: msrp[g.name as keyof typeof msrp] + '€',
       price: [
-        { 
-          name: "Mifcom", 
+        {
+          name: "Mifcom",
           link: "https://www.mifcom.de",
           ...getFormatedPrices(g.name, mifcom ?? [])
         },
-        { 
-          name: "MemoryPC", 
+        {
+          name: "MemoryPC",
           link: "https://www.memorypc.de",
           ...getFormatedPrices(g.name, memorypc ?? [])
         }
@@ -138,5 +140,79 @@ Promise.allSettled([
   const readmeFile = path.join(__dirname, 'README.md')
   fs.writeFileSync(readmeFile, readme)
 
-  console.log("done")
+
+  // render chart
+  const dates = Object.keys(prices)
+  const getPricesForGraka = (grakaName: string) => {
+    type TKey = keyof typeof prices['']
+    const gotPrices = {} as Record<TKey, number[]>
+    for (const data of Object.values(prices)) {
+      for (const [key, graka] of Object.entries(data)) {
+        if (!graka) continue
+        if (!gotPrices[key as TKey]) gotPrices[key as TKey] = []
+        gotPrices[key as TKey].push(graka?.find(g => g.name === grakaName)?.price ?? 0)
+      }
+    }
+
+    return gotPrices
+  }
+
+  const getChartColor = (name: string) => {
+    if (name === "mifcom") return "#E53E3E"
+    if (name === "memorypc") return "#3182CE"
+    return "#000000"
+  }
+
+  for (const graka of grakas) {
+    const renderBuffer = chartJSNodeCanvas.renderToBufferSync({
+      type: 'line',
+      data: {
+        labels: dates,
+        datasets: [
+          {
+            label: "msrp",
+            data: new Array(dates.length).fill(msrp[graka.name as keyof typeof msrp]),
+            fill: false,
+            cubicInterpolationMode: 'monotone',
+            borderColor: '#2D3748',
+            tension: 0.4
+          },
+          ...Object.entries(getPricesForGraka(graka.name)).map(([company, prices]) => {
+            return {
+              label: company + ' - ' + graka.name,
+              data: prices,
+              fill: false,
+              cubicInterpolationMode: 'monotone',
+              borderColor: getChartColor(company),
+              tension: 0.4
+            }
+          })
+        ]
+      },
+      options: {
+        responsive: true,
+        interaction: {
+          intersect: false,
+        },
+        scales: {
+          x: {
+            display: true,
+            title: {
+              display: true
+            }
+          },
+          y: {
+            display: true,
+            title: {
+              display: true,
+              text: 'Price in €'
+            },
+            min: 0,
+          }
+        }
+      },
+    })
+
+    fs.writeFileSync(path.join(__dirname, 'img', `${graka.name}.svg`), renderBuffer)
+  }
 })

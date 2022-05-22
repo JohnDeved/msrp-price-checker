@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chartjs-node-canvas": "^4.1.6",
     "cheerio": "^1.0.0-rc.11",
     "dayjs": "^1.11.2",
     "handlebars": "^4.7.7",
