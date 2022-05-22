@@ -3,6 +3,7 @@ import dayjs from 'dayjs'
 import fs from 'fs'
 import * as cheerio from 'cheerio'
 import path from 'path'
+import Handlebars from 'handlebars'
 
 interface IGraka {
   name: string
@@ -33,7 +34,7 @@ function calcMsrpGrakas(grakas: IGraka[]) {
       // remove cards without msrp
       if (!msrp[g.name]) msrp[g.name] = null
       return msrp[g.name]
-    }) 
+    })
     .map(g => ({ ...g, msrpDiff: Number((g.price - msrp[g.name]).toFixed(2)) }))
     .map(g => ({ ...g, msrpPerc: Number((g.msrpDiff / msrp[g.name] * 100).toFixed(2)) }))
 }
@@ -94,4 +95,37 @@ Promise.allSettled([
   // update msrp file, this will add new cards to the file
   const msrpFile = path.join(__dirname, 'data', 'msrp.json')
   fs.writeFileSync(msrpFile, JSON.stringify(msrp, Object.keys(msrp).sort(), 2))
+
+  // update readme
+  const readmeTemplateFile = path.join(__dirname, 'templates', 'README.hbs')
+  const readmeTemplate = Handlebars.compile(fs.readFileSync(readmeTemplateFile, "utf8"))
+
+  /* 
+    map to the following format:
+    [
+      { 
+        name: "RTX 3060 Ti", // this is the graka name
+        price: [ 
+          { name: "mifcom", price: "1299.99" }, } 
+          { name: "memorypc", price: "1299.99" }
+        ] 
+      },
+      ...
+    ]
+  */
+
+  const grakas = dedupeGrakas([...mifcom, ...memorypc])
+    .map(g => ({
+      name: g.name,
+      price: [
+        { name: "Mifcom", price: mifcom.find(m => m.name === g.name)?.price },
+        { name: "MemoryPC", price: memorypc.find(m => m.name === g.name)?.price }
+      ]
+    }))
+
+  const readme = readmeTemplate({ grakas, date })
+  const readmeFile = path.join(__dirname, 'README.md')
+  fs.writeFileSync(readmeFile, readme)
+
+  console.log("done")
 })
