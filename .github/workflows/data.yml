@@ -15,11 +15,11 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-    - name: Use Python
-      uses: actions/setup-python@v3
-    - name: Setup cmake
-      uses: jwlawson/actions-setup-cmake@v1.12
+    - name: setup node-gyp
+      run: npm install -g node-gyp@latest
+    - name: install
     - run: npm install
+    - name: run
     - run: npm start
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
