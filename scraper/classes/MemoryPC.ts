@@ -1,6 +1,6 @@
-import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
-import { IGraka, Scraper } from "../../types/common"
 import * as cheerio from 'cheerio'
+import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
+import { Scraper } from "../../types/common"
 
 class MemoryPC implements Scraper {
   name = 'memorypc' as const

@@ -1,6 +1,6 @@
-import { IGraka, Scraper } from "../../types/common"
 import * as cheerio from "cheerio"
 import msrp from "../../helpers/msrp"
+import { Scraper } from "../../types/common"
 
 class Alternate implements Scraper {
   name = 'alternate' as const

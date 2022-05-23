@@ -1,5 +1,5 @@
 import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
-import { IGraka, Scraper } from "../../types/common"
+import { Scraper } from "../../types/common"
 
 class Mifcom implements Scraper {
   name = 'mifcom' as const
