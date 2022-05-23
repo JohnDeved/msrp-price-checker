@@ -5,7 +5,7 @@
   <path d="M 748 86 L 771 86 L 771 122 L 748 122 Z M 748 86 "/>
 </clipPath>
 <clipPath id="clip2">
-  <path d="M 748 81 L 771 81 L 771 116 L 748 116 Z M 748 81 "/>
+  <path d="M 748 92 L 771 92 L 771 127 L 748 127 Z M 748 92 "/>
 </clipPath>
 <clipPath id="clip3">
   <path d="M 52.398438 49 L 771 49 L 771 113 L 52.398438 113 Z M 52.398438 49 "/>
@@ -89,9 +89,9 @@
 <g clip-path="url(#clip1)" clip-rule="nonzero">
 <path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,80.392157%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 769 104.070312 C 769 108.070312 763 108.070312 763 104.070312 C 763 100.070312 769 100.070312 769 104.070312 Z M 769 104.070312 "/>
 </g>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.0980392;" d="M 769 98.566406 C 769 102.566406 763 102.566406 763 98.566406 C 763 94.566406 769 94.566406 769 98.566406 Z M 769 98.566406 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.0980392;" d="M 769 109.574219 C 769 113.574219 763 113.574219 763 109.574219 C 763 105.574219 769 105.574219 769 109.574219 Z M 769 109.574219 "/>
 <g clip-path="url(#clip2)" clip-rule="nonzero">
-<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 769 98.566406 C 769 102.566406 763 102.566406 763 98.566406 C 763 94.566406 769 94.566406 769 98.566406 Z M 769 98.566406 "/>
+<path style="fill:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 769 109.574219 C 769 113.574219 763 113.574219 763 109.574219 C 763 105.574219 769 105.574219 769 109.574219 Z M 769 109.574219 "/>
 </g>
 <g clip-path="url(#clip3)" clip-rule="nonzero">
 <path style="fill:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(19.215686%,50.980392%,80.784314%);stroke-opacity:1;stroke-miterlimit:10;" d="M 57.398438 62.308594 C 293.601562 64.875 529.800781 67.445312 766 70.011719 "/>

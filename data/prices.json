@@ -93,7 +93,7 @@
       },
       {
         "name": "RTX 3070",
-        "price": 849
+        "price": 869
       },
       {
         "name": "RTX 3070 Ti",
@@ -105,11 +105,11 @@
       },
       {
         "name": "RTX 3080 Ti",
-        "price": 1599
+        "price": 1749
       },
       {
         "name": "RTX 3090",
-        "price": 1999
+        "price": 2199
       },
       {
         "name": "RTX 3090 Ti",
@@ -173,7 +173,7 @@
       },
       {
         "name": "RTX 3070 Ti",
-        "price": 819
+        "price": 799
       },
       {
         "name": "RTX 3080",

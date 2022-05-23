@@ -38,8 +38,8 @@
   <br><br>
   ## RTX 3070
   msrp 549€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>849.00€</ins><br>
-      <sub><ins>over</ins> msrp by 300.00€ (54.64%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>869.00€</ins><br>
+      <sub><ins>over</ins> msrp by 320.00€ (58.29%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>799.90€</ins><br>
       <sub><ins>over</ins> msrp by 250.90€ (45.70%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>699.00€</ins><br>
@@ -54,8 +54,8 @@
       <sub><ins>over</ins> msrp by 250.00€ (38.52%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>870.90€</ins><br>
       <sub><ins>over</ins> msrp by 221.90€ (34.19%)</sub><br><br>
-    [Alternate](https://www.alternate.de) <ins>819.00€</ins><br>
-      <sub><ins>over</ins> msrp by 170.00€ (26.19%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>799.00€</ins><br>
+      <sub><ins>over</ins> msrp by 150.00€ (23.11%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>809.00€</ins><br>
       <sub><ins>over</ins> msrp by 160.00€ (24.65%)</sub><br><br>
   ![RTX 3070 Ti chart](img/RTX%203070%20Ti.svg)
@@ -74,8 +74,8 @@
   <br><br>
   ## RTX 3080 Ti
   msrp 1269€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>1599.00€</ins><br>
-      <sub><ins>over</ins> msrp by 330.00€ (26.00%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>1749.00€</ins><br>
+      <sub><ins>over</ins> msrp by 480.00€ (37.83%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>1413.90€</ins><br>
       <sub><ins>over</ins> msrp by 144.90€ (11.42%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>1249.00€</ins><br>
@@ -86,8 +86,8 @@
   <br><br>
   ## RTX 3090
   msrp 1649€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>1999.00€</ins><br>
-      <sub><ins>over</ins> msrp by 350.00€ (21.22%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>2199.00€</ins><br>
+      <sub><ins>over</ins> msrp by 550.00€ (33.35%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>2051.90€</ins><br>
       <sub><ins>over</ins> msrp by 402.90€ (24.43%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>1929.00€</ins><br>
