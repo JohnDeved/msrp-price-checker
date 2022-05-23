@@ -17,6 +17,8 @@ jobs:
         cache: 'npm'
     - name: Use Python
       uses: actions/setup-python@v3
+    - name: Setup cmake
+      uses: jwlawson/actions-setup-cmake@v1.12
     - run: npm install
     - run: npm start
     - name: Commit changes
