@@ -40,8 +40,8 @@
   msrp 549€<br><br>
     [Mifcom](https://www.mifcom.de) <ins>849.00€</ins><br>
       <sub><ins>over</ins> msrp by 300.00€ (54.64%)</sub><br><br>
-    [MemoryPC](https://www.memorypc.de) <ins>813.90€</ins><br>
-      <sub><ins>over</ins> msrp by 264.90€ (48.25%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>799.90€</ins><br>
+      <sub><ins>over</ins> msrp by 250.90€ (45.70%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>699.00€</ins><br>
       <sub><ins>over</ins> msrp by 150.00€ (27.32%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>694.35€</ins><br>
@@ -52,8 +52,8 @@
   msrp 649€<br><br>
     [Mifcom](https://www.mifcom.de) <ins>899.00€</ins><br>
       <sub><ins>over</ins> msrp by 250.00€ (38.52%)</sub><br><br>
-    [MemoryPC](https://www.memorypc.de) <ins>884.90€</ins><br>
-      <sub><ins>over</ins> msrp by 235.90€ (36.35%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>870.90€</ins><br>
+      <sub><ins>over</ins> msrp by 221.90€ (34.19%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>819.00€</ins><br>
       <sub><ins>over</ins> msrp by 170.00€ (26.19%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>809.00€</ins><br>
@@ -66,8 +66,8 @@
       <sub><ins>over</ins> msrp by 390.00€ (51.38%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>1070.90€</ins><br>
       <sub><ins>over</ins> msrp by 311.90€ (41.09%)</sub><br><br>
-    [Alternate](https://www.alternate.de) <ins>999.00€</ins><br>
-      <sub><ins>over</ins> msrp by 240.00€ (31.62%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>939.00€</ins><br>
+      <sub><ins>over</ins> msrp by 180.00€ (23.72%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>965.20€</ins><br>
       <sub><ins>over</ins> msrp by 206.20€ (27.17%)</sub><br><br>
   ![RTX 3080 chart](img/RTX%203080.svg)
