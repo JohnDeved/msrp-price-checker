@@ -16,7 +16,7 @@ jobs:
         node-version: '18'
         cache: 'npm'
     - name: Use Python
-        uses: actions/setup-python@v3
+      uses: actions/setup-python@v3
     - run: npm install
     - run: npm start
     - name: Commit changes
