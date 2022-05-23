@@ -103,8 +103,8 @@ Promise.allSettled([
 
   const getFormatedPrices = (name: string, data: IGraka[]) => {
     const price = data.find(g => g.name === name)?.price
-    const msrpPrice = msrp[name as keyof typeof msrp] ?? 0
-    const msrpDiff = price && msrpPrice ? price - msrpPrice : 0
+    const msrpPrice = msrp[name as keyof typeof msrp] ?? NaN
+    const msrpDiff = price && msrpPrice ? price - msrpPrice : NaN
 
     return {
       price: price ? `${price.toFixed(2)}€` : "?",
@@ -151,7 +151,7 @@ Promise.allSettled([
       for (const [key, graka] of Object.entries(data)) {
         if (!graka) continue
         if (!gotPrices[key as TKey]) gotPrices[key as TKey] = []
-        gotPrices[key as TKey].push(graka?.find(g => g.name === grakaName)?.price ?? 0)
+        gotPrices[key as TKey].push(graka?.find(g => g.name === grakaName)?.price ?? NaN)
       }
     }
 
