@@ -104,7 +104,7 @@
       <sub><ins>over</ins> msrp by 320.90€ (14.27%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [CaseKing](https://www.caseking.de) <ins>2089.00€</ins><br>
-      <sub><ins>under</ins> msrp by -160.00€ (-7.11%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>2129.00€</ins><br>
+      <sub><ins>under</ins> msrp by -120.00€ (-5.34%)</sub><br><br>
   ![RTX 3090 Ti chart](img/RTX%203090%20Ti.svg)
   <br><br>
