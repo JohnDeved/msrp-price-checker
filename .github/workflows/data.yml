@@ -16,7 +16,7 @@ jobs:
         node-version: '18'
         cache: 'npm'
     - name: setup node-gyp
-      run: npm install -g node-gyp@latest
+      run: sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
     - run: npm install
     - run: npm start
     - name: Commit changes
