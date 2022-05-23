@@ -8,6 +8,8 @@
       <sub><ins>over</ins> msrp by 127.90€ (45.84%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>369.00€</ins><br>
       <sub><ins>over</ins> msrp by 90.00€ (32.26%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>336.35€</ins><br>
+      <sub><ins>over</ins> msrp by 57.35€ (20.56%)</sub><br><br>
   ![RTX 3050 chart](img/RTX%203050.svg)
   <br><br>
   ## RTX 3060
@@ -18,6 +20,8 @@
       <sub><ins>over</ins> msrp by 170.90€ (51.95%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>449.00€</ins><br>
       <sub><ins>over</ins> msrp by 120.00€ (36.47%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>472.85€</ins><br>
+      <sub><ins>over</ins> msrp by 143.85€ (43.72%)</sub><br><br>
   ![RTX 3060 chart](img/RTX%203060.svg)
   <br><br>
   ## RTX 3060 Ti
@@ -28,6 +32,8 @@
       <sub><ins>over</ins> msrp by 242.90€ (55.33%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>589.00€</ins><br>
       <sub><ins>over</ins> msrp by 150.00€ (34.17%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>555.09€</ins><br>
+      <sub><ins>over</ins> msrp by 116.09€ (26.44%)</sub><br><br>
   ![RTX 3060 Ti chart](img/RTX%203060%20Ti.svg)
   <br><br>
   ## RTX 3070
@@ -38,6 +44,8 @@
       <sub><ins>over</ins> msrp by 264.90€ (48.25%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>699.00€</ins><br>
       <sub><ins>over</ins> msrp by 150.00€ (27.32%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>694.35€</ins><br>
+      <sub><ins>over</ins> msrp by 145.35€ (26.48%)</sub><br><br>
   ![RTX 3070 chart](img/RTX%203070.svg)
   <br><br>
   ## RTX 3070 Ti
@@ -48,6 +56,8 @@
       <sub><ins>over</ins> msrp by 235.90€ (36.35%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>819.00€</ins><br>
       <sub><ins>over</ins> msrp by 170.00€ (26.19%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>809.00€</ins><br>
+      <sub><ins>over</ins> msrp by 160.00€ (24.65%)</sub><br><br>
   ![RTX 3070 Ti chart](img/RTX%203070%20Ti.svg)
   <br><br>
   ## RTX 3080
@@ -58,6 +68,8 @@
       <sub><ins>over</ins> msrp by 311.90€ (41.09%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>999.00€</ins><br>
       <sub><ins>over</ins> msrp by 240.00€ (31.62%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>965.20€</ins><br>
+      <sub><ins>over</ins> msrp by 206.20€ (27.17%)</sub><br><br>
   ![RTX 3080 chart](img/RTX%203080.svg)
   <br><br>
   ## RTX 3080 Ti
@@ -68,6 +80,8 @@
       <sub><ins>over</ins> msrp by 144.90€ (11.42%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>1249.00€</ins><br>
       <sub><ins>under</ins> msrp by -20.00€ (-1.58%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>1224.31€</ins><br>
+      <sub><ins>under</ins> msrp by -44.69€ (-3.52%)</sub><br><br>
   ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg)
   <br><br>
   ## RTX 3090
@@ -78,6 +92,8 @@
       <sub><ins>over</ins> msrp by 402.90€ (24.43%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>1929.00€</ins><br>
       <sub><ins>over</ins> msrp by 280.00€ (16.98%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>1879.00€</ins><br>
+      <sub><ins>over</ins> msrp by 230.00€ (13.95%)</sub><br><br>
   ![RTX 3090 chart](img/RTX%203090.svg)
   <br><br>
   ## RTX 3090 Ti
@@ -88,5 +104,7 @@
       <sub><ins>over</ins> msrp by 320.90€ (14.27%)</sub><br><br>
     [Alternate](https://www.alternate.de) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>2089.00€</ins><br>
+      <sub><ins>under</ins> msrp by -160.00€ (-7.11%)</sub><br><br>
   ![RTX 3090 Ti chart](img/RTX%203090%20Ti.svg)
   <br><br>
