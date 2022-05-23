@@ -69,7 +69,7 @@ function scrapeMemoryPC(): Promise<IGraka[]> {
       return $('h2:contains("Grafikkarte")').parent().parent().find(".product--properties-label").toArray()
         .map((el) => ({
           name: $(el).find('.component-headline').text().trim().match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '',
-          price: parseFloat($(el).find('.components-price').text().trim().replace(/[^0-9,]/g, '').replace(',', '.'))
+          price: parseFloat($(el).find('.components-price').text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
         }))
         .filter(g => g.name) // filter out undefined
     })
@@ -84,7 +84,7 @@ function scrapeAlternate (): Promise<IGraka[]> {
 
   const cardPrefix = (n: string) => {
     if (n.startsWith('RTX')) return 'NVIDIA GeForce ' + n
-    if (n.startsWith('RX')) return 'NVIDIA GeForce ' + n
+    if (n.startsWith('RX')) return 'AMD Radeon ' + n
     return n
   }
   
@@ -96,21 +96,48 @@ function scrapeAlternate (): Promise<IGraka[]> {
 
         return {
           name: card,
-          price: parseFloat($('.price').first().text().trim().replace(/[^0-9,]/g, '').replace(',', '.'))
+          price: parseFloat($('.price').first().text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
         }
       })
   }))
-  // https://www.alternate.de/listing.xhtml?q=RTX+3080&filter_416=170&s=price_asc
+}
+
+function scrapeCaseKing (): Promise<IGraka[]> {
+  const cards = Object.keys(msrp)
+    .filter(k => msrp[k as keyof typeof msrp]) // filter out cards without msrp
+
+  const cardPrefix = (n: string) => {
+    if (n.startsWith('RTX')) return 'nvidia/geforce-' + n.toLowerCase().replaceAll(' ', '-')
+    if (n.startsWith('RX')) return 'amd/radeon-' + n.toLowerCase().replaceAll(' ', '-')
+    return n
+  }
+
+  return Promise.all(cards.map(card => {
+    console.log(`https://www.caseking.de/pc-komponenten/grafikkarten/${cardPrefix(card)}?sSort=3`)
+    return fetch(`https://www.caseking.de/pc-komponenten/grafikkarten/${cardPrefix(card)}?sSort=3`)
+      .then(response => response.text())
+      .then(html => {
+        const $ = cheerio.load(html)
+
+        return {
+          name: card,
+          price: parseFloat($("span.price").first().text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
+        }
+      })
+  }))
+
+  // https://www.caseking.de/pc-komponenten/grafikkarten/nvidia/geforce-rtx-3090-ti?sSort=3
 }
 
 Promise.allSettled([
   scrapeMifcom(),
   scrapeMemoryPC(),
-  scrapeAlternate()
+  scrapeAlternate(),
+  scrapeCaseKing()
 ]).then((results) => {
-  const [mifcom, memorypc, alternate] = results.map(result => result.status === "fulfilled" ? result.value : null)
+  const [mifcom, memorypc, alternate, caseking] = results.map(result => result.status === "fulfilled" ? result.value : null)
 
-  const newData = { mifcom, memorypc, alternate }
+  const newData = { mifcom, memorypc, alternate, caseking }
   console.log(newData)
 
   const date = dayjs().format("DD.MM.YYYY")
@@ -162,6 +189,11 @@ Promise.allSettled([
           name: "Alternate",
           link: "https://www.alternate.de",
           ...getFormatedPrices(g.name, alternate ?? [])
+        },
+        {
+          name: "CaseKing",
+          link: "https://www.caseking.de",
+          ...getFormatedPrices(g.name, caseking ?? [])
         }
       ]
     }))
@@ -179,7 +211,7 @@ Promise.allSettled([
     type TKey = keyof typeof prices['']
     const gotPrices = {} as Record<TKey, number[]>
     for (const data of Object.values(prices)) {
-      ["mifcom", "memorypc", "alternate"].forEach(name => {
+      Object.keys(newData).forEach(name => {
         if (!gotPrices[name as TKey]) gotPrices[name as TKey] = []
         const price = data[name as TKey]?.find(g => g.name === grakaName)?.price
         gotPrices[name as TKey].push(price ?? NaN)
@@ -194,6 +226,8 @@ Promise.allSettled([
   const getChartColor = (name: string) => {
     if (name === "mifcom") return "#E53E3E"
     if (name === "memorypc") return "#3182CE"
+    if (name === "alternate") return "#000"
+    if (name === "caseking") return "#FFCD00"
     return "#000000"
   }
 
