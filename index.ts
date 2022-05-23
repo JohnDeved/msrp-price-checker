@@ -41,7 +41,7 @@ function filterMsrp(grakas: IGraka[]) {
 }
 
 
-function scrapeMifcom() {
+function scrapeMifcom(): Promise<IGraka[]> {
   return fetch("https://www.mifcom.de/gaming-pc-konfigurator-amd-ryzen-5000-so-am4-id13616?configurator")
     .then(response => response.text())
     .then(html => {
@@ -61,7 +61,7 @@ function scrapeMifcom() {
     .then(sortGrakas)
 }
 
-function scrapeMemoryPC() {
+function scrapeMemoryPC(): Promise<IGraka[]> {
   return fetch("https://www.memorypc.de/configurator/aufruest-kit-msi-b550-a-pro-amd-ryzen-9-5900x-12x-3.70-ghz")
     .then(response => response.text())
     .then(html => {
@@ -78,13 +78,39 @@ function scrapeMemoryPC() {
     .then(sortGrakas)
 }
 
+function scrapeAlternate (): Promise<IGraka[]> {
+  const cards = Object.keys(msrp)
+    .filter(k => msrp[k as keyof typeof msrp]) // filter out cards without msrp
+
+  const cardPrefix = (n: string) => {
+    if (n.startsWith('RTX')) return 'NVIDIA GeForce ' + n
+    if (n.startsWith('RX')) return 'NVIDIA GeForce ' + n
+    return n
+  }
+  
+  return Promise.all(cards.map(card => {
+    return fetch(`https://www.alternate.de/Grafikkarten?filter_2203=${cardPrefix(card)}&s=price_asc`)
+      .then(response => response.text())
+      .then(html => {
+        const $ = cheerio.load(html)
+
+        return {
+          name: card,
+          price: parseFloat($('.price').first().text().trim().replace(/[^0-9,]/g, '').replace(',', '.'))
+        }
+      })
+  }))
+  // https://www.alternate.de/listing.xhtml?q=RTX+3080&filter_416=170&s=price_asc
+}
+
 Promise.allSettled([
   scrapeMifcom(),
-  scrapeMemoryPC()
+  scrapeMemoryPC(),
+  scrapeAlternate()
 ]).then((results) => {
-  const [mifcom, memorypc] = results.map(result => result.status === "fulfilled" ? result.value : null)
+  const [mifcom, memorypc, alternate] = results.map(result => result.status === "fulfilled" ? result.value : null)
 
-  const newData = { mifcom, memorypc }
+  const newData = { mifcom, memorypc, alternate }
   console.log(newData)
 
   const date = dayjs().format("DD.MM.YYYY")
@@ -131,6 +157,11 @@ Promise.allSettled([
           name: "MemoryPC",
           link: "https://www.memorypc.de",
           ...getFormatedPrices(g.name, memorypc ?? [])
+        },
+        {
+          name: "Alternate",
+          link: "https://www.alternate.de",
+          ...getFormatedPrices(g.name, alternate ?? [])
         }
       ]
     }))
@@ -148,15 +179,17 @@ Promise.allSettled([
     type TKey = keyof typeof prices['']
     const gotPrices = {} as Record<TKey, number[]>
     for (const data of Object.values(prices)) {
-      for (const [key, graka] of Object.entries(data)) {
-        if (!graka) continue
-        if (!gotPrices[key as TKey]) gotPrices[key as TKey] = []
-        gotPrices[key as TKey].push(graka?.find(g => g.name === grakaName)?.price ?? NaN)
-      }
+      ["mifcom", "memorypc", "alternate"].forEach(name => {
+        if (!gotPrices[name as TKey]) gotPrices[name as TKey] = []
+        const price = data[name as TKey]?.find(g => g.name === grakaName)?.price
+        gotPrices[name as TKey].push(price ?? NaN)
+      })
     }
 
     return gotPrices
   }
+
+  console.log(getPricesForGraka('RTX 3060 Ti'))
 
   const getChartColor = (name: string) => {
     if (name === "mifcom") return "#E53E3E"
