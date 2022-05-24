@@ -7,6 +7,6 @@ scrapeData().then((newData) => {
   console.log(newData)
 
   updatePrices(newData)
-  updateReadme(newData)
   updateCharts(newData)
+  updateReadme(newData)
 })

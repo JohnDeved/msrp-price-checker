@@ -5,6 +5,7 @@ import fs from "fs"
 import { scrapers } from "../scraper"
 import dayjs from "dayjs"
 import Handlebars from "handlebars"
+import { getFileHash } from "../helpers/file2hash"
 
 export const getFormatedPrices = (name: string, data: IGraka[]) => {
   const price = data.find(g => g.name === name)?.price
@@ -26,6 +27,7 @@ export function getGrakaReadmeData(newData: Record<string, IGraka[]>) {
     .map(name => ({
       name,
       nameEnc: encodeURIComponent(name),
+      imageHash: getFileHash(path.join(__dirname, "../img", `${name}.svg`)),
       msrp: msrp[name as keyof typeof msrp] + '€',
       price: scrapers.map(scraper => ({
         name: scraper.display,
