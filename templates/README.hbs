@@ -7,6 +7,6 @@
     [{{this.name}}]({{this.link}}) <ins>{{this.price}}</ins><br>
       <sub><ins>{{this.msrp.type}}</ins> msrp by {{this.msrp.diff}} ({{this.msrp.perc}})</sub><br><br>
   {{/each}}
-  ![{{this.name}} chart](img/{{this.nameEnc}}.svg)
+  ![{{this.name}} chart](img/{{this.nameEnc}}.svg?hash={{this.imageHash}})
   <br><br>
 {{/each}}
