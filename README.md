@@ -10,7 +10,7 @@
       <sub><ins>over</ins> msrp by 100.00€ (35.84%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>336.35€</ins><br>
       <sub><ins>over</ins> msrp by 57.35€ (20.56%)</sub><br><br>
-  ![RTX 3050 chart](img/RTX%203050.svg?hash=da20bdf5e5c336d210ad6ae2221e5752c547b7b88cf703ad52cbcd851caf913e)
+  ![RTX 3050 chart](img/RTX%203050.svg?hash=)
   <br><br>
   ## RTX 3060
   msrp 329€<br><br>
@@ -22,7 +22,7 @@
       <sub><ins>over</ins> msrp by 120.00€ (36.47%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>472.85€</ins><br>
       <sub><ins>over</ins> msrp by 143.85€ (43.72%)</sub><br><br>
-  ![RTX 3060 chart](img/RTX%203060.svg?hash=d4ca4e4633b9722f92f43fa7f4e27747c1f58203fb565fe08ca5e0e6be0a1913)
+  ![RTX 3060 chart](img/RTX%203060.svg?hash=)
   <br><br>
   ## RTX 3060 Ti
   msrp 439€<br><br>
@@ -34,7 +34,7 @@
       <sub><ins>over</ins> msrp by 150.00€ (34.17%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>555.09€</ins><br>
       <sub><ins>over</ins> msrp by 116.09€ (26.44%)</sub><br><br>
-  ![RTX 3060 Ti chart](img/RTX%203060%20Ti.svg?hash=f4b114644cde750a6b4949858575be593b68ab76ba8d55768a6688f88f19549d)
+  ![RTX 3060 Ti chart](img/RTX%203060%20Ti.svg?hash=)
   <br><br>
   ## RTX 3070
   msrp 549€<br><br>
@@ -46,7 +46,7 @@
       <sub><ins>over</ins> msrp by 150.00€ (27.32%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>694.35€</ins><br>
       <sub><ins>over</ins> msrp by 145.35€ (26.48%)</sub><br><br>
-  ![RTX 3070 chart](img/RTX%203070.svg?hash=45019bc79ff070aa4dd150fa60fb8b49a262741c11ba60eab0656d0650993528)
+  ![RTX 3070 chart](img/RTX%203070.svg?hash=)
   <br><br>
   ## RTX 3070 Ti
   msrp 649€<br><br>
@@ -58,7 +58,7 @@
       <sub><ins>over</ins> msrp by 170.00€ (26.19%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>809.00€</ins><br>
       <sub><ins>over</ins> msrp by 160.00€ (24.65%)</sub><br><br>
-  ![RTX 3070 Ti chart](img/RTX%203070%20Ti.svg?hash=b97c4fd1e2019a8d560f0653a3b10692b9223f21dce435c5e8127e7395cb68c9)
+  ![RTX 3070 Ti chart](img/RTX%203070%20Ti.svg?hash=)
   <br><br>
   ## RTX 3080
   msrp 759€<br><br>
@@ -70,7 +70,7 @@
       <sub><ins>over</ins> msrp by 190.00€ (25.03%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>965.20€</ins><br>
       <sub><ins>over</ins> msrp by 206.20€ (27.17%)</sub><br><br>
-  ![RTX 3080 chart](img/RTX%203080.svg?hash=27ee963dddc19c879b2edf023e5cd1f7b0db57c30fb427a458b3d1f1545c6ffe)
+  ![RTX 3080 chart](img/RTX%203080.svg?hash=)
   <br><br>
   ## RTX 3080 Ti
   msrp 1269€<br><br>
@@ -82,7 +82,7 @@
       <sub><ins>under</ins> msrp by -20.00€ (-1.58%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>1224.31€</ins><br>
       <sub><ins>under</ins> msrp by -44.69€ (-3.52%)</sub><br><br>
-  ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg?hash=07caa97ab1279f6dd090e81f7bc2b2f1fe6371b11df615e036fd26cf06731e87)
+  ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg?hash=)
   <br><br>
   ## RTX 3090
   msrp 1649€<br><br>
@@ -94,7 +94,7 @@
       <sub><ins>over</ins> msrp by 280.00€ (16.98%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>1879.00€</ins><br>
       <sub><ins>over</ins> msrp by 230.00€ (13.95%)</sub><br><br>
-  ![RTX 3090 chart](img/RTX%203090.svg?hash=72dec4b1a269fbbd5f962328ad65dede045c0152fc0fa06240c962c7d2b60b48)
+  ![RTX 3090 chart](img/RTX%203090.svg?hash=)
   <br><br>
   ## RTX 3090 Ti
   msrp 2249€<br><br>
@@ -106,5 +106,113 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>2129.00€</ins><br>
       <sub><ins>under</ins> msrp by -120.00€ (-5.34%)</sub><br><br>
-  ![RTX 3090 Ti chart](img/RTX%203090%20Ti.svg?hash=f6d52126a9c8cb0b269269be01798a7420a38b6b9a5e09caa560ed3daa4eda57)
+  ![RTX 3090 Ti chart](img/RTX%203090%20Ti.svg?hash=)
+  <br><br>
+  ## RX 6500 XT
+  msrp 209€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>213.90€</ins><br>
+      <sub><ins>over</ins> msrp by 4.90€ (2.34%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>179.90€</ins><br>
+      <sub><ins>under</ins> msrp by -29.10€ (-13.92%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>199.00€</ins><br>
+      <sub><ins>under</ins> msrp by -10.00€ (-4.78%)</sub><br><br>
+  ![RX 6500 XT chart](img/RX%206500%20XT.svg?hash=)
+  <br><br>
+  ## RX 6600
+  msrp 339€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>479.00€</ins><br>
+      <sub><ins>over</ins> msrp by 140.00€ (41.30%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>342.90€</ins><br>
+      <sub><ins>over</ins> msrp by 3.90€ (1.15%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>333.00€</ins><br>
+      <sub><ins>under</ins> msrp by -6.00€ (-1.77%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>399.00€</ins><br>
+      <sub><ins>over</ins> msrp by 60.00€ (17.70%)</sub><br><br>
+  ![RX 6600 chart](img/RX%206600.svg?hash=)
+  <br><br>
+  ## RX 6600 XT
+  msrp 379€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>559.00€</ins><br>
+      <sub><ins>over</ins> msrp by 180.00€ (47.49%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>499.90€</ins><br>
+      <sub><ins>over</ins> msrp by 120.90€ (31.90%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>479.00€</ins><br>
+      <sub><ins>over</ins> msrp by 100.00€ (26.39%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>449.00€</ins><br>
+      <sub><ins>over</ins> msrp by 70.00€ (18.47%)</sub><br><br>
+  ![RX 6600 XT chart](img/RX%206600%20XT.svg?hash=)
+  <br><br>
+  ## RX 6650 XT
+  msrp 479€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>629.00€</ins><br>
+      <sub><ins>over</ins> msrp by 150.00€ (31.32%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>542.90€</ins><br>
+      <sub><ins>over</ins> msrp by 63.90€ (13.34%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>489.00€</ins><br>
+      <sub><ins>over</ins> msrp by 10.00€ (2.09%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>476.05€</ins><br>
+      <sub><ins>under</ins> msrp by -2.95€ (-0.62%)</sub><br><br>
+  ![RX 6650 XT chart](img/RX%206650%20XT.svg?hash=)
+  <br><br>
+  ## RX 6700 XT
+  msrp 579€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>749.00€</ins><br>
+      <sub><ins>over</ins> msrp by 170.00€ (29.36%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>620.90€</ins><br>
+      <sub><ins>over</ins> msrp by 41.90€ (7.24%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>579.00€</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>599.00€</ins><br>
+      <sub><ins>over</ins> msrp by 20.00€ (3.45%)</sub><br><br>
+  ![RX 6700 XT chart](img/RX%206700%20XT.svg?hash=)
+  <br><br>
+  ## RX 6750 XT
+  msrp 619€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>899.00€</ins><br>
+      <sub><ins>over</ins> msrp by 280.00€ (45.23%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>756.90€</ins><br>
+      <sub><ins>over</ins> msrp by 137.90€ (22.28%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>699.00€</ins><br>
+      <sub><ins>over</ins> msrp by 80.00€ (12.92%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>664.90€</ins><br>
+      <sub><ins>over</ins> msrp by 45.90€ (7.42%)</sub><br><br>
+  ![RX 6750 XT chart](img/RX%206750%20XT.svg?hash=)
+  <br><br>
+  ## RX 6800 XT
+  msrp 649€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>999.00€</ins><br>
+      <sub><ins>over</ins> msrp by 350.00€ (53.93%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>1013.90€</ins><br>
+      <sub><ins>over</ins> msrp by 364.90€ (56.22%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>1049.00€</ins><br>
+      <sub><ins>over</ins> msrp by 400.00€ (61.63%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>989.00€</ins><br>
+      <sub><ins>over</ins> msrp by 340.00€ (52.39%)</sub><br><br>
+  ![RX 6800 XT chart](img/RX%206800%20XT.svg?hash=)
+  <br><br>
+  ## RX 6900 XT
+  msrp 999€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>1399.00€</ins><br>
+      <sub><ins>over</ins> msrp by 400.00€ (40.04%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>1213.90€</ins><br>
+      <sub><ins>over</ins> msrp by 214.90€ (21.51%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>1129.00€</ins><br>
+      <sub><ins>over</ins> msrp by 130.00€ (13.01%)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>999.00€</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+  ![RX 6900 XT chart](img/RX%206900%20XT.svg?hash=)
+  <br><br>
+  ## RX 6950 XT
+  msrp 1239€<br><br>
+    [Mifcom](https://www.mifcom.de) <ins>1599.00€</ins><br>
+      <sub><ins>over</ins> msrp by 360.00€ (29.06%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>1498.90€</ins><br>
+      <sub><ins>over</ins> msrp by 259.90€ (20.98%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+    [CaseKing](https://www.caseking.de) <ins>1279.00€</ins><br>
+      <sub><ins>over</ins> msrp by 40.00€ (3.23%)</sub><br><br>
+  ![RX 6950 XT chart](img/RX%206950%20XT.svg?hash=)
   <br><br>
