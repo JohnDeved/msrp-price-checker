@@ -24,12 +24,7 @@ export function getScraperColors () {
 }
 
 export function scrapeData () {
-  return Promise.allSettled([
-    Mifcom.scrape(),
-    MemoryPC.scrape(),
-    Alternate.scrape(),
-    CaseKing.scrape(),
-  ]).then(res => {
+  return Promise.allSettled(scrapers.map(s => s.scrape())).then(res => {
     const data: Partial<Record<TScraperNames, IGraka[]>> = {}
 
     res.forEach(r => {

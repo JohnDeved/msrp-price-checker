@@ -263,7 +263,7 @@
       },
       {
         "name": "RTX 3070",
-        "price": 869
+        "price": 849
       },
       {
         "name": "RTX 3070 Ti",
@@ -391,15 +391,15 @@
       },
       {
         "name": "RTX 3070",
-        "price": 679
+        "price": 649
       },
       {
         "name": "RTX 3070 Ti",
-        "price": 819
+        "price": 799
       },
       {
         "name": "RTX 3080",
-        "price": 939
+        "price": 879
       },
       {
         "name": "RTX 3080 Ti",
@@ -407,11 +407,11 @@
       },
       {
         "name": "RTX 3090",
-        "price": 1929
+        "price": 1749
       },
       {
         "name": "RTX 3090 Ti",
-        "price": 2329
+        "price": 2289
       },
       {
         "name": "RX 6500 XT",

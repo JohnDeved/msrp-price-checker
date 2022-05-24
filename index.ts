@@ -9,4 +9,7 @@ scrapeData().then((newData) => {
   updatePrices(newData)
   updateCharts(newData)
   updateReadme(newData)
+
+  // to scrape graka
+  // https://cls-computer.de/pc-konfigurator/
 })
