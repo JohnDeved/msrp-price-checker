@@ -230,5 +230,159 @@
         "price": 2129
       }
     ]
+  },
+  "24.05.2022": {
+    "mifcom": [
+      {
+        "name": "RTX 3050",
+        "price": 389
+      },
+      {
+        "name": "RTX 3060",
+        "price": 549
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 639
+      },
+      {
+        "name": "RTX 3070",
+        "price": 869
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 899
+      },
+      {
+        "name": "RTX 3080",
+        "price": 1149
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1749
+      },
+      {
+        "name": "RTX 3090",
+        "price": 2199
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2499
+      }
+    ],
+    "memorypc": [
+      {
+        "name": "RTX 3050",
+        "price": 406.9
+      },
+      {
+        "name": "RTX 3060",
+        "price": 499.9
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 681.9
+      },
+      {
+        "name": "RTX 3070",
+        "price": 799.9
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 870.9
+      },
+      {
+        "name": "RTX 3080",
+        "price": 1070.9
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1413.9
+      },
+      {
+        "name": "RTX 3090",
+        "price": 2051.9
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2569.9
+      }
+    ],
+    "alternate": [
+      {
+        "name": "RTX 3050",
+        "price": 379
+      },
+      {
+        "name": "RTX 3060",
+        "price": 449
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 589
+      },
+      {
+        "name": "RTX 3070",
+        "price": 699
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 819
+      },
+      {
+        "name": "RTX 3080",
+        "price": 949
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1249
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1929
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": null
+      }
+    ],
+    "caseking": [
+      {
+        "name": "RTX 3050",
+        "price": 336.35
+      },
+      {
+        "name": "RTX 3060",
+        "price": 472.85
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 555.09
+      },
+      {
+        "name": "RTX 3070",
+        "price": 694.35
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 809
+      },
+      {
+        "name": "RTX 3080",
+        "price": 965.2
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1224.31
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1879
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2129
+      }
+    ]
   }
 }

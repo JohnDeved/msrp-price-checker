@@ -1,4 +1,4 @@
-<ins>data last refreshed: 23.05.2022</ins><br><br>
+<ins>data last refreshed: 24.05.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
@@ -6,8 +6,8 @@
       <sub><ins>over</ins> msrp by 110.00€ (39.43%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>406.90€</ins><br>
       <sub><ins>over</ins> msrp by 127.90€ (45.84%)</sub><br><br>
-    [Alternate](https://www.alternate.de) <ins>369.00€</ins><br>
-      <sub><ins>over</ins> msrp by 90.00€ (32.26%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>379.00€</ins><br>
+      <sub><ins>over</ins> msrp by 100.00€ (35.84%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>336.35€</ins><br>
       <sub><ins>over</ins> msrp by 57.35€ (20.56%)</sub><br><br>
   ![RTX 3050 chart](img/RTX%203050.svg)
@@ -54,8 +54,8 @@
       <sub><ins>over</ins> msrp by 250.00€ (38.52%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>870.90€</ins><br>
       <sub><ins>over</ins> msrp by 221.90€ (34.19%)</sub><br><br>
-    [Alternate](https://www.alternate.de) <ins>799.00€</ins><br>
-      <sub><ins>over</ins> msrp by 150.00€ (23.11%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>819.00€</ins><br>
+      <sub><ins>over</ins> msrp by 170.00€ (26.19%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>809.00€</ins><br>
       <sub><ins>over</ins> msrp by 160.00€ (24.65%)</sub><br><br>
   ![RTX 3070 Ti chart](img/RTX%203070%20Ti.svg)
@@ -66,8 +66,8 @@
       <sub><ins>over</ins> msrp by 390.00€ (51.38%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>1070.90€</ins><br>
       <sub><ins>over</ins> msrp by 311.90€ (41.09%)</sub><br><br>
-    [Alternate](https://www.alternate.de) <ins>939.00€</ins><br>
-      <sub><ins>over</ins> msrp by 180.00€ (23.72%)</sub><br><br>
+    [Alternate](https://www.alternate.de) <ins>949.00€</ins><br>
+      <sub><ins>over</ins> msrp by 190.00€ (25.03%)</sub><br><br>
     [CaseKing](https://www.caseking.de) <ins>965.20€</ins><br>
       <sub><ins>over</ins> msrp by 206.20€ (27.17%)</sub><br><br>
   ![RTX 3080 chart](img/RTX%203080.svg)
