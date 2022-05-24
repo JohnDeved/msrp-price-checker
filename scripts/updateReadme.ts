@@ -22,12 +22,12 @@ export const getFormatedPrices = (name: string, data: IGraka[]) => {
   }
 }
 
-export function getGrakaReadmeData(newData: Record<string, IGraka[]>) {
+export function getGrakaReadmeData(newData: Record<string, IGraka[]>, includeHash: boolean = false) {
   return Object.keys(msrp).filter(name => msrp[name as keyof typeof msrp])
     .map(name => ({
       name,
       nameEnc: encodeURIComponent(name),
-      imageHash: getFileHash(path.join(__dirname, "../img", `${name}.svg`)),
+      ... includeHash ? { imageHash: getFileHash(path.join(__dirname, "../img", `${name}.svg`)) } : {},
       msrp: msrp[name as keyof typeof msrp] + '€',
       price: scrapers.map(scraper => ({
         name: scraper.display,
