@@ -2,6 +2,7 @@ import { IGraka } from "../types/common";
 import Alternate from "./classes/Alternate";
 import CaseKing from "./classes/CaseKing";
 import ClsComputer from "./classes/ClsComputer";
+import Dubaro from "./classes/Dubaro";
 import MemoryPC from "./classes/MemoryPC";
 import Mifcom from "./classes/Mifcom";
 
@@ -13,7 +14,16 @@ export const scrapers = [
   Alternate,
   CaseKing,
   ClsComputer,
+  Dubaro,
 ]
+
+// https://www.vergleich.org/pc-konfigurator/
+// https://www.pcspecialist.at/computer/amd-am4-overclocked/
+// https://www.ditech.at/pckonfi.php?artnr=201661&belnr=A%207241807
+// https://www.alza.at/komponentenmontage-d70319.htm?o=2
+// https://www.ibuypower.de/Gamer-PC/AMD-Ryzen-5-Gamer-PC
+// https://www.one.de/one-gaming-pc-premium-in03-frei-anpassen-intel-nvidia
+// https://www.dubaro.de/mixxxer.php?%20products_id=3304 (super cheap??)
 
 export function getScraperNames() {
   return scrapers.map(s => s.name)

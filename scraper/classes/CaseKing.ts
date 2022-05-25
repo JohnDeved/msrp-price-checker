@@ -5,7 +5,7 @@ import { Scraper } from "../../types/common"
 class CaseKing implements Scraper {
   name = 'caseking' as const
   display = 'CaseKing' as const
-  link = 'https://www.caseking.de'
+  link = 'https://www.caseking.de/pc-systeme/finder/pc-konfigurator'
   color = '#D69E2E'
 
   async scrape() {
