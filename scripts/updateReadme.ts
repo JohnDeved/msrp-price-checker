@@ -43,8 +43,6 @@ export function updateReadme(newData: Record<string, IGraka[]>) {
   const readmeTemplate = Handlebars.compile(fs.readFileSync(readmeTemplateFile, "utf8"))
 
   const grakas = getGrakaReadmeData(newData)
-  console.log(JSON.stringify(grakas, null, 2))
-
   const readme = readmeTemplate({ grakas, date })
   const readmeFile = path.join(__dirname, '..', 'README.md')
   fs.writeFileSync(readmeFile, readme)
