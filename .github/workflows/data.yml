@@ -1,7 +1,6 @@
 name: data cron job
 
 on:
-  push:
   schedule:
     - cron: "0 9 * * *"
 
