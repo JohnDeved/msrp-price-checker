@@ -6,7 +6,7 @@ class CaseKing implements Scraper {
   name = 'caseking' as const
   display = 'CaseKing' as const
   link = 'https://www.caseking.de'
-  color = '#FFCD00'
+  color = '#D69E2E'
 
   async scrape() {
     const cards = Object.keys(msrp)

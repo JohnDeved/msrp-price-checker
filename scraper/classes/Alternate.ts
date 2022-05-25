@@ -6,7 +6,7 @@ class Alternate implements Scraper {
   name = 'alternate' as const
   display = 'Alternate' as const
   link = 'https://www.alternate.de'
-  color = '#171923'
+  color = '#DD6B20'
 
   async scrape() {
     const cards = Object.keys(msrp)
