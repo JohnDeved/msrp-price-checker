@@ -8,7 +8,7 @@ class Dubaro implements Scraper {
   name = 'dubaro' as const
   display = 'Dubaro' as const
   link = 'https://www.dubaro.de'
-  color = "#38A169"
+  color = "#000"
 
   async scrape() {
     
@@ -21,7 +21,7 @@ class Dubaro implements Scraper {
           const items = $('ul:contains("NVIDIA")').first().parent().find(".mixxxer_group_line").map((i, el) => {
             return {
               name: formatGrakaName($(el).text().trim()) ?? '',
-              price: Number((convertPriceToNumber($(el).next().find(".mi_line_price").text()) + Math.abs(basePrice)).toFixed())
+              price: Number(((convertPriceToNumber($(el).next().find(".mi_line_price").text()) + Math.abs(basePrice)) * 1.2).toFixed())
             }
           })
           
@@ -34,12 +34,9 @@ class Dubaro implements Scraper {
       "https://www.dubaro.de/mixxxer.php?products_id=4531", // highend cards
     ].map(url => fetchFromProduct(url))
 
-    const items = await Promise.all(requests)
+    return await Promise.all(requests)
       .then(i => i.flat())
       .then(dedupeGrakas)
-
-    console.log(items)
-    return []
   }
 }
 

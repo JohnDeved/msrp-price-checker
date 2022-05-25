@@ -25,7 +25,7 @@ class ClsComputer implements Scraper {
   name = 'cls-computer' as const
   display = 'CLS Computer' as const
   link = 'https://cls-computer.de/pc-konfigurator/'
-  color = "#319795"
+  color = "#38A169"
 
   async scrape() {
     // get cookies with custom https request, because native node fetch doesnt seem to get https-only cookies
