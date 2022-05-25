@@ -18,11 +18,13 @@ export const scrapers = [
 ]
 
 // https://www.vergleich.org/pc-konfigurator/
+// https://www.arlt.com/ARLT-PC-Konfigurator-AMD-Ryzen.html (easy to scrape)
 // https://www.pcspecialist.at/computer/amd-am4-overclocked/
 // https://www.ditech.at/pckonfi.php?artnr=201661&belnr=A%207241807
 // https://www.alza.at/komponentenmontage-d70319.htm?o=2
 // https://www.ibuypower.de/Gamer-PC/AMD-Ryzen-5-Gamer-PC
 // https://www.one.de/one-gaming-pc-premium-in03-frei-anpassen-intel-nvidia
+// https://www.csl-computer.com/pc-csl-speed-4628-core-i5.html
 
 export function getScraperNames() {
   return scrapers.map(s => s.name)

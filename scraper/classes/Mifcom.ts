@@ -18,7 +18,7 @@ class Mifcom implements Scraper {
       .then(grakas => {
         // filter and map for RTX cards
         return Object.values(grakas)
-          .map(g => ({ name: g.name as string, price: g.price as number }))
+          .map(g => ({ name: g.name as string, price: g.priceInclTax as number }))
           .map(g => ({ ...g, name: g.name.match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '' }))
           .filter(g => g.name) // filter out empty names
       })
