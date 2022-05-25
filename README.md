@@ -34,8 +34,8 @@
   <br><br>
   ## RTX 3060 Ti
   msrp 439€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>639.00€</ins><br>
-      <sub><ins>over</ins> msrp by 200.00€ (45.56%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>634.00€</ins><br>
+      <sub><ins>over</ins> msrp by 195.00€ (44.42%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>681.90€</ins><br>
       <sub><ins>over</ins> msrp by 242.90€ (55.33%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>589.00€</ins><br>
@@ -50,8 +50,8 @@
   <br><br>
   ## RTX 3070
   msrp 549€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>849.00€</ins><br>
-      <sub><ins>over</ins> msrp by 300.00€ (54.64%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>814.00€</ins><br>
+      <sub><ins>over</ins> msrp by 265.00€ (48.27%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>734.90€</ins><br>
       <sub><ins>over</ins> msrp by 185.90€ (33.86%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>649.00€</ins><br>
@@ -98,8 +98,8 @@
   <br><br>
   ## RTX 3080 Ti
   msrp 1269€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>1749.00€</ins><br>
-      <sub><ins>over</ins> msrp by 480.00€ (37.83%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>1399.00€</ins><br>
+      <sub><ins>over</ins> msrp by 130.00€ (10.24%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>1384.90€</ins><br>
       <sub><ins>over</ins> msrp by 115.90€ (9.13%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1249.00€</ins><br>
@@ -162,8 +162,8 @@
   <br><br>
   ## RX 6600
   msrp 339€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>479.00€</ins><br>
-      <sub><ins>over</ins> msrp by 140.00€ (41.30%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>439.00€</ins><br>
+      <sub><ins>over</ins> msrp by 100.00€ (29.50%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>342.90€</ins><br>
       <sub><ins>over</ins> msrp by 3.90€ (1.15%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>333.00€</ins><br>
@@ -178,8 +178,8 @@
   <br><br>
   ## RX 6600 XT
   msrp 379€<br><br>
-    [Mifcom](https://www.mifcom.de) <ins>559.00€</ins><br>
-      <sub><ins>over</ins> msrp by 180.00€ (47.49%)</sub><br><br>
+    [Mifcom](https://www.mifcom.de) <ins>509.00€</ins><br>
+      <sub><ins>over</ins> msrp by 130.00€ (34.30%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>499.90€</ins><br>
       <sub><ins>over</ins> msrp by 120.90€ (31.90%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>479.00€</ins><br>
