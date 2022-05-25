@@ -8,5 +8,5 @@ export abstract class Scraper {
   abstract display: string
   abstract link: string
   abstract color: string
-  abstract scrape(): Promise<{ source: string, data: IGraka[] }>
+  abstract scrape(): Promise<IGraka[]>
 }

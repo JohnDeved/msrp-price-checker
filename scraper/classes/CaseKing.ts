@@ -29,9 +29,6 @@ class CaseKing implements Scraper {
             price: parseFloat($("span.price").first().text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
           }
         })
-    })).then(data => ({
-      source: this.name,
-      data
     }))
   }
 }

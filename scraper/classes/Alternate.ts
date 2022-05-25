@@ -6,7 +6,7 @@ class Alternate implements Scraper {
   name = 'alternate' as const
   display = 'Alternate' as const
   link = 'https://www.alternate.de'
-  color = '#000'
+  color = '#171923'
 
   async scrape() {
     const cards = Object.keys(msrp)
@@ -29,9 +29,6 @@ class Alternate implements Scraper {
             price: parseFloat($('.price').first().text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
           }
         })
-    })).then(data => ({
-      source: this.name,
-      data
     }))
   }
 }

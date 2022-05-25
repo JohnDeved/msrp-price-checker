@@ -25,10 +25,6 @@ class Mifcom implements Scraper {
       .then(dedupeGrakas)
       .then(filterMsrp)
       .then(sortGrakas)
-      .then(grakas => ({
-        source: this.name,
-        data: grakas
-      }))
   }
 }
 
