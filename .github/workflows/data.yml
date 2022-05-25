@@ -1,6 +1,7 @@
 name: data cron job
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 9 * * *"
 
