@@ -246,8 +246,8 @@
       <sub><ins>over</ins> msrp by 540.00€ (83.20%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>1013.90€</ins><br>
       <sub><ins>over</ins> msrp by 364.90€ (56.22%)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1049.00€</ins><br>
-      <sub><ins>over</ins> msrp by 400.00€ (61.63%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>989.00€</ins><br>
       <sub><ins>over</ins> msrp by 340.00€ (52.39%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1114.00€</ins><br>
