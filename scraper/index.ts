@@ -1,5 +1,6 @@
 import { IGraka } from "../types/common";
 import Alternate from "./classes/Alternate";
+import ArltComputer from "./classes/ArltComputer";
 import CaseKing from "./classes/CaseKing";
 import ClsComputer from "./classes/ClsComputer";
 import Dubaro from "./classes/Dubaro";
@@ -15,6 +16,7 @@ export const scrapers = [
   CaseKing,
   ClsComputer,
   Dubaro,
+  ArltComputer
 ]
 
 // https://www.vergleich.org/pc-konfigurator/
