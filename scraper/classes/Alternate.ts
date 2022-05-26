@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio"
-import msrp from "../../helpers/msrp"
+import msrp, { msrpCards } from "../../helpers/msrp"
+import { priceToNumber } from "../../helpers/price"
 import { Scraper } from "../../types/common"
 
 class Alternate implements Scraper {
@@ -9,16 +10,13 @@ class Alternate implements Scraper {
   color = '#DD6B20'
 
   async scrape() {
-    const cards = Object.keys(msrp)
-      .filter(k => msrp[k as keyof typeof msrp]) // filter out cards without msrp
-
     const cardPrefix = (n: string) => {
       if (n.startsWith('RTX')) return 'NVIDIA GeForce ' + n
       if (n.startsWith('RX')) return 'AMD Radeon ' + n
       return n
     }
 
-    return Promise.all(cards.map(card => {
+    return Promise.all(msrpCards.map(card => {
       return fetch(`https://www.alternate.de/Grafikkarten?filter_2203=${cardPrefix(card)}&s=price_asc`)
         .then(response => response.text())
         .then(html => {
@@ -26,7 +24,7 @@ class Alternate implements Scraper {
 
           return {
             name: card,
-            price: parseFloat($('.price').first().text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
+            price: priceToNumber($('.price').first().text())
           }
         })
     }))

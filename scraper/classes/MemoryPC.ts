@@ -1,5 +1,7 @@
 import * as cheerio from 'cheerio'
 import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
+import { formatGrakaName } from '../../helpers/grakaName'
+import { priceToNumber } from '../../helpers/price'
 import { Scraper } from "../../types/common"
 
 class MemoryPC implements Scraper {
@@ -15,8 +17,8 @@ class MemoryPC implements Scraper {
         const $ = cheerio.load(html)
         return $('h2:contains("Grafikkarte")').parent().parent().find(".product--properties-label").toArray()
           .map((el) => ({
-            name: $(el).find('.component-headline').text().trim().match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '',
-            price: parseFloat($(el).find('.components-price').text().trim().replaceAll(/[^0-9,]/g, '').replaceAll(',', '.'))
+            name: formatGrakaName($(el).find('.component-headline').text()) ?? '',
+            price: priceToNumber($(el).find('.components-price').text())
           }))
           .filter(g => g.name) // filter out undefined
       })

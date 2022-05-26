@@ -1,4 +1,5 @@
 import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
+import { formatGrakaName } from "../../helpers/grakaName"
 import { Scraper } from "../../types/common"
 
 class Mifcom implements Scraper {
@@ -19,7 +20,7 @@ class Mifcom implements Scraper {
         // filter and map for RTX cards
         return Object.values(grakas)
           .map(g => ({ name: g.name as string, price: g.priceInclTax as number }))
-          .map(g => ({ ...g, name: g.name.match(/(GTX|RTX|RX) \d{2,8}( Ti| XT)?/i)?.at(0) ?? '' }))
+          .map(g => ({ ...g, name: formatGrakaName(g.name) ?? '' }))
           .filter(g => g.name) // filter out empty names
       })
       .then(dedupeGrakas)

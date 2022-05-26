@@ -1,5 +1,6 @@
 import cookie from "cookie";
 import https from "https";
+import { formatGrakaName } from "../../helpers/grakaName";
 import msrp, { msrpCards } from "../../helpers/msrp";
 import { nativeFetch } from "../../helpers/nativeFetch";
 import { IGraka, Scraper } from "../../types/common";
@@ -76,10 +77,11 @@ class ClsComputer implements Scraper {
     const products = await Promise.all(Object.values(CLS)
         .map(type => fetchAllPages(type)))
         .then(res => res.flat())
+        .then(res => res.map(p => ({ ...p, p_name: formatGrakaName(p.p_name) ?? p.p_name })))
         .then(prod => prod.sort((a, b) => a.p_price - b.p_price)) // sort by price ascending, so .find will get the cheapest one 
     
     return msrpCards.map(card => {
-      const found = products.find(p => p.p_name.includes(card))
+      const found = products.find(p => p.p_name?.includes(card))
       if (found) {
         const graka: IGraka = {
           name: card,

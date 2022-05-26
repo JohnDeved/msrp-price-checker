@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio"
 import { dedupeGrakas } from "../../helpers/filters"
 import { formatGrakaName } from "../../helpers/grakaName"
-import { convertPriceToNumber } from "../../helpers/price"
+import { priceToNumber } from "../../helpers/price"
 import { IGraka, Scraper } from "../../types/common"
 
 class Dubaro implements Scraper {
@@ -17,11 +17,11 @@ class Dubaro implements Scraper {
         .then(res => res.text())
         .then<IGraka[]>(html => {
           const $ = cheerio.load(html)
-          const basePrice = convertPriceToNumber($('ul:contains("NVIDIA")').first().parent().find('.mixxxer_item_box:contains("ohne") .mi_line_price').text())
+          const basePrice = priceToNumber($('ul:contains("NVIDIA")').first().parent().find('.mixxxer_item_box:contains("ohne") .mi_line_price').text())
           const items = $('ul:contains("NVIDIA")').first().parent().find(".mixxxer_group_line").map((i, el) => {
             return {
               name: formatGrakaName($(el).text().trim()) ?? '',
-              price: Number(((convertPriceToNumber($(el).next().find(".mi_line_price").text()) + Math.abs(basePrice)) * 1.2).toFixed())
+              price: Number(((priceToNumber($(el).next().find(".mi_line_price").text()) + Math.abs(basePrice)) * 1.2).toFixed())
             }
           })
           
