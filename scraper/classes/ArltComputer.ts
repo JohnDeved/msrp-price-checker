@@ -1,9 +1,8 @@
 import * as cheerio from "cheerio"
-import msrp, { msrpCards } from "../../helpers/msrp"
+import { dedupeGrakas, filterMsrp } from "../../helpers/filters"
+import { formatGrakaName } from "../../helpers/grakaName"
 import { priceToNumber } from "../../helpers/price"
 import { IGraka, Scraper } from "../../types/common"
-import { formatGrakaName } from "../../helpers/grakaName"
-import { dedupeGrakas, filterMsrp } from "../../helpers/filters"
 
 class ArltComputer implements Scraper {
   name = 'arlt-computer' as const

@@ -20,7 +20,6 @@ export const scrapers = [
 ]
 
 // https://www.vergleich.org/pc-konfigurator/
-// https://www.arlt.com/ARLT-PC-Konfigurator-AMD-Ryzen.html (easy to scrape)
 // https://www.pcspecialist.at/computer/amd-am4-overclocked/
 // https://www.ditech.at/pckonfi.php?artnr=201661&belnr=A%207241807
 // https://www.alza.at/komponentenmontage-d70319.htm?o=2

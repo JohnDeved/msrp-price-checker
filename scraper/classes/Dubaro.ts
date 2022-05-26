@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio"
-import { dedupeGrakas } from "../../helpers/filters"
+import { dedupeGrakas, filterMsrp } from "../../helpers/filters"
 import { formatGrakaName } from "../../helpers/grakaName"
 import { priceToNumber } from "../../helpers/price"
 import { IGraka, Scraper } from "../../types/common"
@@ -37,6 +37,7 @@ class Dubaro implements Scraper {
     return await Promise.all(requests)
       .then(i => i.flat())
       .then(dedupeGrakas)
+      .then(filterMsrp)
   }
 }
 

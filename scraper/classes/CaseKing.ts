@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio'
-import msrp, { msrpCards } from "../../helpers/msrp"
+import { msrpCards } from "../../helpers/msrp"
 import { priceToNumber } from '../../helpers/price'
 import { Scraper } from "../../types/common"
 
