@@ -1,4 +1,4 @@
-<ins>data last refreshed: 25.05.2022</ins><br><br>
+<ins>data last refreshed: 26.05.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
