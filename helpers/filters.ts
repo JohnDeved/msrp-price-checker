@@ -15,8 +15,8 @@ export function dedupeGrakas(grakas: IGraka[]) {
   }, [] as typeof grakas)
 }
 
-export function sortGrakas(grakas: IGraka[]) {
-  return grakas.sort((a, b) => a.price - b.price)
+export function sortGrakasByName(grakas: IGraka[]) {
+  return grakas.sort((a, b) => a.name.localeCompare(b.name))
 }
 
 export function filterMsrp(grakas: IGraka[]) {

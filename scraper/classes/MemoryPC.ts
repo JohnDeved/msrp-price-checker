@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio'
-import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
+import { dedupeGrakas, filterMsrp, sortGrakasByName } from "../../helpers/filters"
 import { formatGrakaName } from '../../helpers/grakaName'
 import { priceToNumber } from '../../helpers/price'
 import { Scraper } from "../../types/common"
@@ -24,7 +24,7 @@ class MemoryPC implements Scraper {
       })
       .then(dedupeGrakas)
       .then(filterMsrp)
-      .then(sortGrakas)
+      .then(sortGrakasByName)
   }
 }
 

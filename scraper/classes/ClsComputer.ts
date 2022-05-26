@@ -1,5 +1,5 @@
 import cookie from "cookie";
-import { dedupeGrakas, filterMsrp } from "../../helpers/filters";
+import { dedupeGrakas, filterMsrp, sortGrakasByName } from "../../helpers/filters";
 import { formatGrakaName } from "../../helpers/grakaName";
 import { nativeFetch } from "../../helpers/nativeFetch";
 import { IGraka, Scraper } from "../../types/common";
@@ -83,6 +83,7 @@ class ClsComputer implements Scraper {
         })))
         .then(dedupeGrakas)
         .then(filterMsrp)
+        .then(sortGrakasByName)
   }
 }
 

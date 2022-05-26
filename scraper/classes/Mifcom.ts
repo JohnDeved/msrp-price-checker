@@ -1,4 +1,4 @@
-import { dedupeGrakas, filterMsrp, sortGrakas } from "../../helpers/filters"
+import { dedupeGrakas, filterMsrp, sortGrakasByName } from "../../helpers/filters"
 import { formatGrakaName } from "../../helpers/grakaName"
 import { Scraper } from "../../types/common"
 
@@ -25,7 +25,7 @@ class Mifcom implements Scraper {
       })
       .then(dedupeGrakas)
       .then(filterMsrp)
-      .then(sortGrakas)
+      .then(sortGrakasByName)
   }
 }
 
