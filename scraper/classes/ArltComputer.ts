@@ -9,7 +9,7 @@ class ArltComputer implements Scraper {
   name = 'arlt-computer' as const
   display = 'Arlt Computer' as const
   link = 'https://www.arlt.com/'
-  color = '#DD6B20'
+  color = '#D53F8C'
 
   async scrape() {
     return fetch("https://www.arlt.com/ARLT-PC-Konfigurator-AMD-Ryzen.html")
