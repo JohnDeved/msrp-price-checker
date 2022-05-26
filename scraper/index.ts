@@ -25,7 +25,6 @@ export const scrapers = [
 // https://www.alza.at/komponentenmontage-d70319.htm?o=2
 // https://www.ibuypower.de/Gamer-PC/AMD-Ryzen-5-Gamer-PC
 // https://www.one.de/one-gaming-pc-premium-in03-frei-anpassen-intel-nvidia
-// https://www.csl-computer.com/pc-csl-speed-4628-core-i5.html
 
 export function getScraperNames() {
   return scrapers.map(s => s.name)

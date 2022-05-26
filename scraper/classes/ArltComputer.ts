@@ -7,7 +7,7 @@ import { IGraka, Scraper } from "../../types/common"
 class ArltComputer implements Scraper {
   name = 'arlt-computer' as const
   display = 'Arlt Computer' as const
-  link = 'https://www.arlt.com/'
+  link = 'https://www.arlt.com/pc-konfigurator/'
   color = '#D53F8C'
 
   async scrape() {
