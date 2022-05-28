@@ -4,6 +4,7 @@ import ArltComputer from "./classes/ArltComputer";
 import CaseKing from "./classes/CaseKing";
 import ClsComputer from "./classes/ClsComputer";
 import Dubaro from "./classes/Dubaro";
+import Geizhals from "./classes/Geizhals";
 import MemoryPC from "./classes/MemoryPC";
 import Mifcom from "./classes/Mifcom";
 
@@ -16,7 +17,8 @@ export const scrapers = [
   CaseKing,
   ClsComputer,
   Dubaro,
-  ArltComputer
+  ArltComputer,
+  Geizhals
 ]
 
 // https://www.vergleich.org/pc-konfigurator/
