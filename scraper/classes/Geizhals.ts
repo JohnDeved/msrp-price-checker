@@ -6,7 +6,7 @@ import { priceToNumber } from "../../helpers/price"
 class Geizhals implements Scraper {
   name = 'geizhals' as const
   display = 'Geizhals (HW Stores)'
-  link = 'https://www.geizhals.de/pc-konfigurator'
+  link = 'https://geizhals.at/?sort=p&hloc=at&hloc=de&hloc=eu&hloc=pl&hloc=uk&cat=gra16_512'
   color = '#CBD5E0'
 
   async scrape() {
@@ -16,7 +16,6 @@ class Geizhals implements Scraper {
         .then(html => {
           const $ = cheerio.load(html)
 
-          console.log($('.price').first().text())
           return {
             name: card,
             price: priceToNumber($('.price').first().text()),
