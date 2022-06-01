@@ -44,8 +44,8 @@
   msrp 439€<br><br>
     [Mifcom](https://www.mifcom.de) <ins>624.00€</ins><br>
       <sub><ins>over</ins> msrp by 185.00€ (42.14%)</sub><br><br>
-    [MemoryPC](https://www.memorypc.de) <ins>681.90€</ins><br>
-      <sub><ins>over</ins> msrp by 242.90€ (55.33%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>656.90€</ins><br>
+      <sub><ins>over</ins> msrp by 217.90€ (49.64%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>579.00€</ins><br>
       <sub><ins>over</ins> msrp by 140.00€ (31.89%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>555.09€</ins><br>
@@ -148,8 +148,8 @@
       <sub><ins>over</ins> msrp by 314.90€ (19.10%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1749.00€</ins><br>
       <sub><ins>over</ins> msrp by 100.00€ (6.06%)</sub><br><br>
-    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1849.00€</ins><br>
-      <sub><ins>over</ins> msrp by 200.00€ (12.13%)</sub><br><br>
+    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1842.52€</ins><br>
+      <sub><ins>over</ins> msrp by 193.52€ (11.74%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1880.00€</ins><br>
       <sub><ins>over</ins> msrp by 231.00€ (14.01%)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>1812.00€</ins><br>
@@ -164,8 +164,8 @@
   msrp 2249€<br><br>
     [Mifcom](https://www.mifcom.de) <ins>2499.00€</ins><br>
       <sub><ins>over</ins> msrp by 250.00€ (11.12%)</sub><br><br>
-    [MemoryPC](https://www.memorypc.de) <ins>2569.90€</ins><br>
-      <sub><ins>over</ins> msrp by 320.90€ (14.27%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>2355.90€</ins><br>
+      <sub><ins>over</ins> msrp by 106.90€ (4.75%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>2049.00€</ins><br>
       <sub><ins>under</ins> msrp by -200.00€ (-8.89%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1999.00€</ins><br>
@@ -224,8 +224,8 @@
   msrp 379€<br><br>
     [Mifcom](https://www.mifcom.de) <ins>509.00€</ins><br>
       <sub><ins>over</ins> msrp by 130.00€ (34.30%)</sub><br><br>
-    [MemoryPC](https://www.memorypc.de) <ins>499.90€</ins><br>
-      <sub><ins>over</ins> msrp by 120.90€ (31.90%)</sub><br><br>
+    [MemoryPC](https://www.memorypc.de) <ins>470.90€</ins><br>
+      <sub><ins>over</ins> msrp by 91.90€ (24.25%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>479.00€</ins><br>
       <sub><ins>over</ins> msrp by 100.00€ (26.39%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>449.00€</ins><br>
@@ -268,8 +268,8 @@
       <sub><ins>over</ins> msrp by 41.90€ (7.24%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>549.00€</ins><br>
       <sub><ins>under</ins> msrp by -30.00€ (-5.18%)</sub><br><br>
-    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>599.00€</ins><br>
-      <sub><ins>over</ins> msrp by 20.00€ (3.45%)</sub><br><br>
+    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>589.00€</ins><br>
+      <sub><ins>over</ins> msrp by 10.00€ (1.73%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>639.00€</ins><br>
       <sub><ins>over</ins> msrp by 60.00€ (10.36%)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>630.00€</ins><br>
@@ -356,7 +356,7 @@
       <sub><ins>over</ins> msrp by 63.00€ (5.08%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1197.12€</ins><br>
-      <sub><ins>under</ins> msrp by -41.88€ (-3.38%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1197.11€</ins><br>
+      <sub><ins>under</ins> msrp by -41.89€ (-3.38%)</sub><br><br>
   ![RX 6950 XT chart](img/RX%206950%20XT.svg?hash=)
   <br><br>
