@@ -24,7 +24,7 @@ export function filterMsrp(grakas: IGraka[]) {
     .filter(g => {
       // remove cards without msrp
       const key = g.name as keyof typeof msrp
-      if (!msrp[key]) msrp[key] = null as never
+      if (!msrp[key] && key) msrp[key] = null as never
       return msrp[key]
     })
 }

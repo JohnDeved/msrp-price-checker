@@ -76,11 +76,11 @@ class ClsComputer implements Scraper {
     return Promise.all(Object.values(CLS)
         .map(type => fetchAllPages(type)))
         .then(res => res.flat())
-        .then(res => res.map(p => ({ ...p, p_name: formatGrakaName(p.p_name) ?? p.p_name })))
-        .then(prod => prod.map<IGraka>(p => ({
-          name: p.p_name,
+        .then(prod => prod.map(p => ({
+          name: formatGrakaName(p.p_name),
           price: p.p_price,
         })))
+        .then(grakas => grakas.filter((g): g is IGraka => Boolean(g.name)))
         .then(dedupeGrakas)
         .then(filterMsrp)
         .then(sortGrakasByName)
