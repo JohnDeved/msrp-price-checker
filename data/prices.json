@@ -4037,11 +4037,11 @@
       },
       {
         "name": "RTX 3070 Ti",
-        "price": 899
+        "price": 949
       },
       {
         "name": "RTX 3080",
-        "price": 1049
+        "price": 1099
       },
       {
         "name": "RTX 3080 Ti",
@@ -4411,7 +4411,7 @@
       },
       {
         "name": "RTX 3080 Ti",
-        "price": 1488
+        "price": 1428
       },
       {
         "name": "RTX 3090",
@@ -4457,11 +4457,11 @@
     "arlt-computer": [
       {
         "name": "RTX 3050",
-        "price": 379.9
+        "price": 379
       },
       {
         "name": "RTX 3060",
-        "price": 459.9
+        "price": 469
       },
       {
         "name": "RTX 3070",
@@ -4523,7 +4523,7 @@
       },
       {
         "name": "RX 6600",
-        "price": 329.8
+        "price": 325
       },
       {
         "name": "RX 6600 XT",
@@ -4535,7 +4535,7 @@
       },
       {
         "name": "RX 6700 XT",
-        "price": 549
+        "price": 540
       },
       {
         "name": "RX 6750 XT",
@@ -4543,7 +4543,7 @@
       },
       {
         "name": "RX 6800 XT",
-        "price": 899
+        "price": 875
       },
       {
         "name": "RX 6900 XT",
