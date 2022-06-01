@@ -21,12 +21,16 @@ export const scrapers = [
   Geizhals
 ]
 
-// https://www.vergleich.org/pc-konfigurator/
 // https://www.pcspecialist.at/computer/amd-am4-overclocked/
 // https://www.ditech.at/pckonfi.php?artnr=201661&belnr=A%207241807
 // https://www.alza.at/komponentenmontage-d70319.htm?o=2
 // https://www.ibuypower.de/Gamer-PC/AMD-Ryzen-5-Gamer-PC
 // https://www.one.de/one-gaming-pc-premium-in03-frei-anpassen-intel-nvidia
+// https://megaport.de/pc-konfigurator/
+// https://www.mindfactory.de/info_center.php/icID/21
+// https://www.systemtreff.de/Konfigurierbare-PC-Systeme-vom-Office-PC-bis-zum-Gaming-
+// https://www.ultraforce.de/PC-Konfigurator-selbst-PC-zusammenstellen/PC-Konfigurator::1167.html?MODsid=goa6a833dmls6j3ofq0t01scd2
+// https://www.agando-shop.de/
 
 export function getScraperNames() {
   return scrapers.map(s => s.name)
