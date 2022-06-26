@@ -1,4 +1,4 @@
-<ins>data last refreshed: 25.06.2022</ins><br><br>
+<ins>data last refreshed: 26.06.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
@@ -16,8 +16,8 @@
       <sub><ins>over</ins> msrp by 123.00€ (44.09%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>379.00€</ins><br>
       <sub><ins>over</ins> msrp by 100.00€ (35.84%)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>309.00€</ins><br>
-      <sub><ins>over</ins> msrp by 30.00€ (10.75%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>319.90€</ins><br>
+      <sub><ins>over</ins> msrp by 40.90€ (14.66%)</sub><br><br>
   ![RTX 3050 chart](img/RTX%203050.svg?hash=)
   <br><br>
   ## RTX 3060
@@ -136,8 +136,8 @@
       <sub><ins>under</ins> msrp by -39.00€ (-3.07%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>1339.00€</ins><br>
       <sub><ins>over</ins> msrp by 70.00€ (5.52%)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1183.98€</ins><br>
-      <sub><ins>under</ins> msrp by -85.02€ (-6.70%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1170.99€</ins><br>
+      <sub><ins>under</ins> msrp by -98.01€ (-7.72%)</sub><br><br>
   ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg?hash=)
   <br><br>
   ## RTX 3090
@@ -186,8 +186,8 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>232.90€</ins><br>
       <sub><ins>over</ins> msrp by 23.90€ (11.44%)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>209.90€</ins><br>
-      <sub><ins>over</ins> msrp by 0.90€ (0.43%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>219.90€</ins><br>
+      <sub><ins>over</ins> msrp by 10.90€ (5.22%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>194.87€</ins><br>
       <sub><ins>under</ins> msrp by -14.13€ (-6.76%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>225.00€</ins><br>
@@ -196,8 +196,8 @@
       <sub><ins>over</ins> msrp by 25.00€ (11.96%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>170.65€</ins><br>
-      <sub><ins>under</ins> msrp by -38.35€ (-18.35%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>196.54€</ins><br>
+      <sub><ins>under</ins> msrp by -12.46€ (-5.96%)</sub><br><br>
   ![RX 6500 XT chart](img/RX%206500%20XT.svg?hash=)
   <br><br>
   ## RX 6600
@@ -286,8 +286,8 @@
       <sub><ins>over</ins> msrp by 180.00€ (29.08%)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>731.90€</ins><br>
       <sub><ins>over</ins> msrp by 112.90€ (18.24%)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>759.00€</ins><br>
-      <sub><ins>over</ins> msrp by 140.00€ (22.62%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>829.00€</ins><br>
+      <sub><ins>over</ins> msrp by 210.00€ (33.93%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>664.90€</ins><br>
       <sub><ins>over</ins> msrp by 45.90€ (7.42%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>720.00€</ins><br>
