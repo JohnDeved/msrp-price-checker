@@ -20407,5 +20407,448 @@
         "price": 1229
       }
     ]
+  },
+  "03.07.2022": {
+    "memorypc": [
+      {
+        "name": "RTX 3050",
+        "price": 370.9
+      },
+      {
+        "name": "RTX 3060",
+        "price": 470.9
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 627.9
+      },
+      {
+        "name": "RTX 3070",
+        "price": 720.9
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 806.9
+      },
+      {
+        "name": "RTX 3080",
+        "price": 963.9
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1320.9
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1855.9
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2248.9
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 225.9
+      },
+      {
+        "name": "RX 6600",
+        "price": 349.9
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": 470.9
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 499.9
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 562.9
+      },
+      {
+        "name": "RX 6750 XT",
+        "price": 699.9
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 906.9
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 1006.9
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": 1378.9
+      }
+    ],
+    "alternate": [
+      {
+        "name": "RTX 3050",
+        "price": 349
+      },
+      {
+        "name": "RTX 3060",
+        "price": 439
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 569
+      },
+      {
+        "name": "RTX 3070",
+        "price": 639
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 729
+      },
+      {
+        "name": "RTX 3080",
+        "price": 899
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1199
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1649
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": null
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 219.9
+      },
+      {
+        "name": "RX 6600",
+        "price": 359
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": null
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 524
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 729
+      },
+      {
+        "name": "RX 6750 XT",
+        "price": 779
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 1049
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 1889
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": null
+      }
+    ],
+    "caseking": [
+      {
+        "name": "RTX 3050",
+        "price": 349
+      },
+      {
+        "name": "RTX 3060",
+        "price": 444.79
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 544.71
+      },
+      {
+        "name": "RTX 3070",
+        "price": 639
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 761.67
+      },
+      {
+        "name": "RTX 3080",
+        "price": 879
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1199
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1649
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 1929
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 179.9
+      },
+      {
+        "name": "RX 6600",
+        "price": 329
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": 469
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 469.9
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 549
+      },
+      {
+        "name": "RX 6750 XT",
+        "price": 609
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 899
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 979
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": 1279
+      }
+    ],
+    "cls-computer": [
+      {
+        "name": "RTX 3050",
+        "price": 374
+      },
+      {
+        "name": "RTX 3060",
+        "price": 472
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 596
+      },
+      {
+        "name": "RTX 3070",
+        "price": 709
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 816
+      },
+      {
+        "name": "RTX 3080",
+        "price": 990
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1328
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1824
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 2228
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 218
+      },
+      {
+        "name": "RX 6600",
+        "price": 370
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": 476
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 494
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 596
+      },
+      {
+        "name": "RX 6750 XT",
+        "price": 686
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 899
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 1079
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": 1384
+      }
+    ],
+    "dubaro": [
+      {
+        "name": "RTX 3050",
+        "price": 402
+      },
+      {
+        "name": "RTX 3060",
+        "price": 420
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 510
+      },
+      {
+        "name": "RTX 3070",
+        "price": 660
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 804
+      },
+      {
+        "name": "RTX 3080",
+        "price": 858
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1230
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1614
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 1824
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 234
+      },
+      {
+        "name": "RX 6600",
+        "price": 360
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": 414
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 432
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 540
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 768
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 1182
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": 1272
+      }
+    ],
+    "arlt-computer": [],
+    "geizhals": [
+      {
+        "name": "RTX 3050",
+        "price": 319.9
+      },
+      {
+        "name": "RTX 3060",
+        "price": 407.48
+      },
+      {
+        "name": "RTX 3060 Ti",
+        "price": 499
+      },
+      {
+        "name": "RTX 3070",
+        "price": 621.51
+      },
+      {
+        "name": "RTX 3070 Ti",
+        "price": 719
+      },
+      {
+        "name": "RTX 3080",
+        "price": 859.99
+      },
+      {
+        "name": "RTX 3080 Ti",
+        "price": 1150
+      },
+      {
+        "name": "RTX 3090",
+        "price": 1599
+      },
+      {
+        "name": "RTX 3090 Ti",
+        "price": 1945
+      },
+      {
+        "name": "RX 6500 XT",
+        "price": 170.42
+      },
+      {
+        "name": "RX 6600",
+        "price": 319.9
+      },
+      {
+        "name": "RX 6600 XT",
+        "price": 399
+      },
+      {
+        "name": "RX 6650 XT",
+        "price": 415.39
+      },
+      {
+        "name": "RX 6700 XT",
+        "price": 512.2
+      },
+      {
+        "name": "RX 6750 XT",
+        "price": 579.9
+      },
+      {
+        "name": "RX 6800 XT",
+        "price": 795
+      },
+      {
+        "name": "RX 6900 XT",
+        "price": 959
+      },
+      {
+        "name": "RX 6950 XT",
+        "price": 1249
+      }
+    ]
   }
 }
