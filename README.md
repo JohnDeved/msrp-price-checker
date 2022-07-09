@@ -1,4 +1,4 @@
-<ins>data last refreshed: 08.07.2022</ins><br><br>
+<ins>data last refreshed: 09.07.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
@@ -36,8 +36,8 @@
       <sub><ins>over</ins> msrp by 97.00€ (29.48%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>414.96€</ins><br>
-      <sub><ins>over</ins> msrp by 85.96€ (26.13%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>402.35€</ins><br>
+      <sub><ins>over</ins> msrp by 73.35€ (22.29%)</sub><br><br>
   ![RTX 3060 chart](img/RTX%203060.svg?hash=)
   <br><br>
   ## RTX 3060 Ti
@@ -106,8 +106,8 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>927.90€</ins><br>
       <sub><ins>over</ins> msrp by 168.90€ (22.25%)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1049.00€</ins><br>
-      <sub><ins>over</ins> msrp by 290.00€ (38.21%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>966.00€</ins><br>
+      <sub><ins>over</ins> msrp by 207.00€ (27.27%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>879.00€</ins><br>
       <sub><ins>over</ins> msrp by 120.00€ (15.81%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>990.00€</ins><br>
@@ -136,8 +136,8 @@
       <sub><ins>under</ins> msrp by -39.00€ (-3.07%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1178.82€</ins><br>
-      <sub><ins>under</ins> msrp by -90.18€ (-7.11%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1150.00€</ins><br>
+      <sub><ins>under</ins> msrp by -119.00€ (-9.38%)</sub><br><br>
   ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg?hash=)
   <br><br>
   ## RTX 3090
@@ -196,8 +196,8 @@
       <sub><ins>over</ins> msrp by 25.00€ (11.96%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>180.50€</ins><br>
-      <sub><ins>under</ins> msrp by -28.50€ (-13.64%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>170.42€</ins><br>
+      <sub><ins>under</ins> msrp by -38.58€ (-18.46%)</sub><br><br>
   ![RX 6500 XT chart](img/RX%206500%20XT.svg?hash=)
   <br><br>
   ## RX 6600
@@ -312,12 +312,12 @@
       <sub><ins>over</ins> msrp by 250.00€ (38.52%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>899.00€</ins><br>
       <sub><ins>over</ins> msrp by 250.00€ (38.52%)</sub><br><br>
-    [Dubaro](https://www.dubaro.de) <ins>768.00€</ins><br>
-      <sub><ins>over</ins> msrp by 119.00€ (18.34%)</sub><br><br>
+    [Dubaro](https://www.dubaro.de) <ins>762.00€</ins><br>
+      <sub><ins>over</ins> msrp by 113.00€ (17.41%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>795.00€</ins><br>
-      <sub><ins>over</ins> msrp by 146.00€ (22.50%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>779.43€</ins><br>
+      <sub><ins>over</ins> msrp by 130.43€ (20.10%)</sub><br><br>
   ![RX 6800 XT chart](img/RX%206800%20XT.svg?hash=)
   <br><br>
   ## RX 6900 XT
@@ -336,8 +336,8 @@
       <sub><ins>over</ins> msrp by 165.00€ (16.52%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>935.95€</ins><br>
-      <sub><ins>under</ins> msrp by -63.05€ (-6.31%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>952.88€</ins><br>
+      <sub><ins>under</ins> msrp by -46.12€ (-4.62%)</sub><br><br>
   ![RX 6900 XT chart](img/RX%206900%20XT.svg?hash=)
   <br><br>
   ## RX 6950 XT
@@ -356,7 +356,7 @@
       <sub><ins>over</ins> msrp by 9.00€ (0.73%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1218.14€</ins><br>
-      <sub><ins>under</ins> msrp by -20.86€ (-1.68%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1207.99€</ins><br>
+      <sub><ins>under</ins> msrp by -31.01€ (-2.50%)</sub><br><br>
   ![RX 6950 XT chart](img/RX%206950%20XT.svg?hash=)
   <br><br>
