@@ -1,4 +1,4 @@
-<ins>data last refreshed: 13.08.2022</ins><br><br>
+<ins>data last refreshed: 14.08.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
@@ -36,8 +36,8 @@
       <sub><ins>over</ins> msrp by 49.00€ (14.89%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>392.27€</ins><br>
-      <sub><ins>over</ins> msrp by 63.27€ (19.23%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>398.00€</ins><br>
+      <sub><ins>over</ins> msrp by 69.00€ (20.97%)</sub><br><br>
   ![RTX 3060 chart](img/RTX%203060.svg?hash=)
   <br><br>
   ## RTX 3060 Ti
@@ -108,8 +108,8 @@
       <sub><ins>over</ins> msrp by 182.90€ (24.10%)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>849.00€</ins><br>
       <sub><ins>over</ins> msrp by 90.00€ (11.86%)</sub><br><br>
-    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>799.00€</ins><br>
-      <sub><ins>over</ins> msrp by 40.00€ (5.27%)</sub><br><br>
+    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>887.04€</ins><br>
+      <sub><ins>over</ins> msrp by 128.04€ (16.87%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>958.00€</ins><br>
       <sub><ins>over</ins> msrp by 199.00€ (26.22%)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>828.00€</ins><br>
@@ -326,8 +326,8 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>989.90€</ins><br>
       <sub><ins>under</ins> msrp by -9.10€ (-0.91%)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1959.00€</ins><br>
-      <sub><ins>over</ins> msrp by 960.00€ (96.10%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>1099.00€</ins><br>
+      <sub><ins>over</ins> msrp by 100.00€ (10.01%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>949.00€</ins><br>
       <sub><ins>under</ins> msrp by -50.00€ (-5.01%)</sub><br><br>
     [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1068.00€</ins><br>
