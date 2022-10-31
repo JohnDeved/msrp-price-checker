@@ -1,4 +1,4 @@
-<ins>data last refreshed: 28.10.2022</ins><br><br>
+<ins>data last refreshed: 31.10.2022</ins><br><br>
 
   ## RTX 3050
   msrp 279€<br><br>
@@ -6,18 +6,18 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [MemoryPC](https://www.memorypc.de) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>329.00€</ins><br>
-      <sub><ins>over</ins> msrp by 50.00€ (17.92%)</sub><br><br>
+    [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>359.00€</ins><br>
+      <sub><ins>over</ins> msrp by 80.00€ (28.67%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>344.61€</ins><br>
       <sub><ins>over</ins> msrp by 65.61€ (23.52%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>348.00€</ins><br>
-      <sub><ins>over</ins> msrp by 69.00€ (24.73%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>324.00€</ins><br>
       <sub><ins>over</ins> msrp by 45.00€ (16.13%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>311.90€</ins><br>
-      <sub><ins>over</ins> msrp by 32.90€ (11.79%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>299.90€</ins><br>
+      <sub><ins>over</ins> msrp by 20.90€ (7.49%)</sub><br><br>
   ![RTX 3050 chart](img/RTX%203050.svg?hash=)
   <br><br>
   ## RTX 3060
@@ -30,14 +30,14 @@
       <sub><ins>over</ins> msrp by 70.00€ (21.28%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>396.31€</ins><br>
       <sub><ins>over</ins> msrp by 67.31€ (20.46%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>429.00€</ins><br>
-      <sub><ins>over</ins> msrp by 100.00€ (30.40%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>360.00€</ins><br>
       <sub><ins>over</ins> msrp by 31.00€ (9.42%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>373.01€</ins><br>
-      <sub><ins>over</ins> msrp by 44.01€ (13.38%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>384.48€</ins><br>
+      <sub><ins>over</ins> msrp by 55.48€ (16.86%)</sub><br><br>
   ![RTX 3060 chart](img/RTX%203060.svg?hash=)
   <br><br>
   ## RTX 3060 Ti
@@ -50,8 +50,8 @@
       <sub><ins>over</ins> msrp by 60.00€ (13.67%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>537.65€</ins><br>
       <sub><ins>over</ins> msrp by 98.65€ (22.47%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>536.00€</ins><br>
-      <sub><ins>over</ins> msrp by 97.00€ (22.10%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>522.00€</ins><br>
       <sub><ins>over</ins> msrp by 83.00€ (18.91%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -70,14 +70,14 @@
       <sub><ins>over</ins> msrp by 50.00€ (9.11%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>599.00€</ins><br>
       <sub><ins>over</ins> msrp by 50.00€ (9.11%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>656.00€</ins><br>
-      <sub><ins>over</ins> msrp by 107.00€ (19.49%)</sub><br><br>
-    [Dubaro](https://www.dubaro.de) <ins>654.00€</ins><br>
-      <sub><ins>over</ins> msrp by 105.00€ (19.13%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
+    [Dubaro](https://www.dubaro.de) <ins>666.00€</ins><br>
+      <sub><ins>over</ins> msrp by 117.00€ (21.31%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>589.00€</ins><br>
-      <sub><ins>over</ins> msrp by 40.00€ (7.29%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>605.00€</ins><br>
+      <sub><ins>over</ins> msrp by 56.00€ (10.20%)</sub><br><br>
   ![RTX 3070 chart](img/RTX%203070.svg?hash=)
   <br><br>
   ## RTX 3070 Ti
@@ -90,8 +90,8 @@
       <sub><ins>over</ins> msrp by 130.00€ (20.03%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>749.00€</ins><br>
       <sub><ins>over</ins> msrp by 100.00€ (15.41%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>768.00€</ins><br>
-      <sub><ins>over</ins> msrp by 119.00€ (18.34%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>738.00€</ins><br>
       <sub><ins>over</ins> msrp by 89.00€ (13.71%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -110,14 +110,14 @@
       <sub><ins>over</ins> msrp by 90.00€ (11.86%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>899.00€</ins><br>
       <sub><ins>over</ins> msrp by 140.00€ (18.45%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>899.00€</ins><br>
-      <sub><ins>over</ins> msrp by 140.00€ (18.45%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>954.00€</ins><br>
       <sub><ins>over</ins> msrp by 195.00€ (25.69%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>799.00€</ins><br>
-      <sub><ins>over</ins> msrp by 40.00€ (5.27%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>777.00€</ins><br>
+      <sub><ins>over</ins> msrp by 18.00€ (2.37%)</sub><br><br>
   ![RTX 3080 chart](img/RTX%203080.svg?hash=)
   <br><br>
   ## RTX 3080 Ti
@@ -130,14 +130,14 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1146.26€</ins><br>
       <sub><ins>under</ins> msrp by -122.74€ (-9.67%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1128.00€</ins><br>
-      <sub><ins>under</ins> msrp by -141.00€ (-11.11%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>1074.00€</ins><br>
       <sub><ins>under</ins> msrp by -195.00€ (-15.37%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>999.00€</ins><br>
-      <sub><ins>under</ins> msrp by -270.00€ (-21.28%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1057.82€</ins><br>
+      <sub><ins>under</ins> msrp by -211.18€ (-16.64%)</sub><br><br>
   ![RTX 3080 Ti chart](img/RTX%203080%20Ti.svg?hash=)
   <br><br>
   ## RTX 3090
@@ -148,16 +148,16 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1208.15€</ins><br>
-      <sub><ins>under</ins> msrp by -440.85€ (-26.73%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1238.00€</ins><br>
-      <sub><ins>under</ins> msrp by -411.00€ (-24.92%)</sub><br><br>
+    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1255.18€</ins><br>
+      <sub><ins>under</ins> msrp by -393.82€ (-23.88%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>1152.00€</ins><br>
       <sub><ins>under</ins> msrp by -497.00€ (-30.14%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1149.00€</ins><br>
-      <sub><ins>under</ins> msrp by -500.00€ (-30.32%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>1184.98€</ins><br>
+      <sub><ins>under</ins> msrp by -464.02€ (-28.14%)</sub><br><br>
   ![RTX 3090 chart](img/RTX%203090.svg?hash=)
   <br><br>
   ## RTX 3090 Ti
@@ -168,10 +168,10 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Alternate](https://www.alternate.de/PC-Konfigurator) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1599.00€</ins><br>
-      <sub><ins>under</ins> msrp by -650.00€ (-28.90%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1418.00€</ins><br>
-      <sub><ins>under</ins> msrp by -831.00€ (-36.95%)</sub><br><br>
+    [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>1497.67€</ins><br>
+      <sub><ins>under</ins> msrp by -751.33€ (-33.41%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>1260.00€</ins><br>
       <sub><ins>under</ins> msrp by -989.00€ (-43.98%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -190,14 +190,14 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>199.00€</ins><br>
       <sub><ins>under</ins> msrp by -10.00€ (-4.78%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>228.00€</ins><br>
-      <sub><ins>over</ins> msrp by 19.00€ (9.09%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>234.00€</ins><br>
       <sub><ins>over</ins> msrp by 25.00€ (11.96%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>206.99€</ins><br>
-      <sub><ins>under</ins> msrp by -2.01€ (-0.96%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>207.80€</ins><br>
+      <sub><ins>under</ins> msrp by -1.20€ (-0.57%)</sub><br><br>
   ![RX 6500 XT chart](img/RX%206500%20XT.svg?hash=)
   <br><br>
   ## RX 6600
@@ -210,8 +210,8 @@
       <sub><ins>under</ins> msrp by -47.00€ (-13.86%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>296.66€</ins><br>
       <sub><ins>under</ins> msrp by -42.34€ (-12.49%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>318.00€</ins><br>
-      <sub><ins>under</ins> msrp by -21.00€ (-6.19%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>300.00€</ins><br>
       <sub><ins>under</ins> msrp by -39.00€ (-11.50%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -230,14 +230,14 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>479.90€</ins><br>
       <sub><ins>over</ins> msrp by 100.90€ (26.62%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>465.00€</ins><br>
-      <sub><ins>over</ins> msrp by 86.00€ (22.69%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>409.18€</ins><br>
-      <sub><ins>over</ins> msrp by 30.18€ (7.96%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>375.99€</ins><br>
+      <sub><ins>under</ins> msrp by -3.01€ (-0.79%)</sub><br><br>
   ![RX 6600 XT chart](img/RX%206600%20XT.svg?hash=)
   <br><br>
   ## RX 6650 XT
@@ -250,14 +250,14 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>379.00€</ins><br>
       <sub><ins>under</ins> msrp by -100.00€ (-20.88%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>424.00€</ins><br>
-      <sub><ins>under</ins> msrp by -55.00€ (-11.48%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>360.00€</ins><br>
       <sub><ins>under</ins> msrp by -119.00€ (-24.84%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>367.99€</ins><br>
-      <sub><ins>under</ins> msrp by -111.01€ (-23.18%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>360.99€</ins><br>
+      <sub><ins>under</ins> msrp by -118.01€ (-24.64%)</sub><br><br>
   ![RX 6650 XT chart](img/RX%206650%20XT.svg?hash=)
   <br><br>
   ## RX 6700 XT
@@ -270,8 +270,8 @@
       <sub><ins>under</ins> msrp by -110.00€ (-19.00%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>549.00€</ins><br>
       <sub><ins>under</ins> msrp by -30.00€ (-5.18%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>509.00€</ins><br>
-      <sub><ins>under</ins> msrp by -70.00€ (-12.09%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>480.00€</ins><br>
       <sub><ins>under</ins> msrp by -99.00€ (-17.10%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -290,14 +290,14 @@
       <sub><ins>under</ins> msrp by -115.00€ (-18.58%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>581.18€</ins><br>
       <sub><ins>under</ins> msrp by -37.82€ (-6.11%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>536.00€</ins><br>
-      <sub><ins>under</ins> msrp by -83.00€ (-13.41%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>495.86€</ins><br>
-      <sub><ins>under</ins> msrp by -123.14€ (-19.89%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
   ![RX 6750 XT chart](img/RX%206750%20XT.svg?hash=)
   <br><br>
   ## RX 6800 XT
@@ -310,14 +310,14 @@
       <sub><ins>over</ins> msrp by 20.00€ (3.08%)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>668.80€</ins><br>
       <sub><ins>over</ins> msrp by 19.80€ (3.05%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>720.00€</ins><br>
-      <sub><ins>over</ins> msrp by 71.00€ (10.94%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>648.00€</ins><br>
       <sub><ins>under</ins> msrp by -1.00€ (-0.15%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
-    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>634.90€</ins><br>
-      <sub><ins>under</ins> msrp by -14.10€ (-2.17%)</sub><br><br>
+    [Geizhals (HW Stores)](https://geizhals.at/?sort&#x3D;p&amp;hloc&#x3D;at&amp;hloc&#x3D;de&amp;hloc&#x3D;eu&amp;hloc&#x3D;pl&amp;hloc&#x3D;uk&amp;cat&#x3D;gra16_512) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
   ![RX 6800 XT chart](img/RX%206800%20XT.svg?hash=)
   <br><br>
   ## RX 6900 XT
@@ -330,8 +330,8 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>799.00€</ins><br>
       <sub><ins>under</ins> msrp by -200.00€ (-20.02%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>832.00€</ins><br>
-      <sub><ins>under</ins> msrp by -167.00€ (-16.72%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>852.00€</ins><br>
       <sub><ins>under</ins> msrp by -147.00€ (-14.71%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
@@ -350,8 +350,8 @@
       <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [CaseKing](https://www.caseking.de/pc-systeme/finder/pc-konfigurator) <ins>949.00€</ins><br>
       <sub><ins>under</ins> msrp by -290.00€ (-23.41%)</sub><br><br>
-    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>1126.00€</ins><br>
-      <sub><ins>under</ins> msrp by -113.00€ (-9.12%)</sub><br><br>
+    [CLS Computer](https://cls-computer.de/pc-konfigurator/) <ins>?</ins><br>
+      <sub><ins>under</ins> msrp by ? (?)</sub><br><br>
     [Dubaro](https://www.dubaro.de) <ins>1026.00€</ins><br>
       <sub><ins>under</ins> msrp by -213.00€ (-17.19%)</sub><br><br>
     [Arlt Computer](https://www.arlt.com/pc-konfigurator/) <ins>?</ins><br>
